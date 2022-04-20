@@ -1,0 +1,4 @@
+.landing-page-section {
+  background: linear-gradient(114.54deg, rgba(255, 255, 255, 0.5) 16.01%, rgba(244, 244, 226, 0.5) 48.74%, rgba(240, 245, 255, 0.5) 89.98%);
+  backdrop-filter: blur(4px);
+}
