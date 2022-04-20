@@ -6,7 +6,7 @@ import TopImage from "../public/images/image.png"
 
 const Home = () => {
   return <main className='min-h-screen w-full relative landing-page-section'>
-    <div className='container px-6 mx-auto pt-16'>
+    <div className='container px-4 lg:px-6 mx-auto pt-16'>
       <nav>
         <Link href={"/"}>
           <a className='font-bold text-2xl text-default'>
