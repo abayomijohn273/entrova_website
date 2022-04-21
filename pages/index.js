@@ -17,7 +17,7 @@ const LogoSection = () => {
 }
 
 const Footer = () => {
-  return <footer className='mt-24 lg:mt-28 pb-12 xl:pb-0 flex flex-col lg:flex-row items-center '>
+  return <footer className='mt-24 lg:mt-28 pb-12  flex flex-col lg:flex-row items-center '>
     <Animate.Fade bottom>
       <div className='flex flex-row justify-center lg:justify-start items-center space-x-6 lg:space-x-3'>
         <a
