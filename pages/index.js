@@ -69,32 +69,32 @@ const Home = () => {
     e.preventDefault()
     setError("")
 
-    if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(email)) {
+    if (!email || !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(email) || error) {
       setError("Invalid email address");
-    }
-
-    const payload = {
-      email
-    }
-
-    setLoading(true)
-
-    try {
-      const resp = await axios.post("/api/join", payload, {
-        headers: {
-          'Content-Type': 'application/json',
-        }
-      })
-
-      if (resp?.data?.status === "success") {
-        setEmail("")
-        setSuccess(true)
+    } else {
+      const payload = {
+        email
       }
-      setLoading(false)
-    } catch (error) {
-      setError("Failed! Try again.")
-      setSuccess(false)
-      setLoading(false)
+
+      setLoading(true)
+
+      try {
+        const resp = await axios.post("/api/join", payload, {
+          headers: {
+            'Content-Type': 'application/json',
+          }
+        })
+
+        if (resp?.data?.status === "success") {
+          setEmail("")
+          setSuccess(true)
+        }
+        setLoading(false)
+      } catch (error) {
+        setError("Failed! Try again.")
+        setSuccess(false)
+        setLoading(false)
+      }
     }
   }
   return <main className='min-h-screen w-full relative landing-page-section'>
