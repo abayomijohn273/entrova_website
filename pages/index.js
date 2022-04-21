@@ -109,7 +109,7 @@ const Home = () => {
             </h1>
 
             <p className='mt-6 text-sm-15 md:text-base lg:text-lg leading-7 lg:leading-8 text-white'>
-              Entova allows your employees to access already earned but
+              Entrova allows your employees to access already earned but
               unpaid wages to reduce financial stress and boost their productivity, motivation and retention.
             </p>
 
@@ -131,7 +131,7 @@ const Home = () => {
                 <button
                   disabled={loading || success}
                   type='submit'
-                  className='ml-0 md:ml-4 mt-3 md:mt-0 w-full md:w-auto h-14 md:h-16 px-6 text-sm md:text-sm-15 submit-btn'
+                  className='ml-0 md:ml-4 mt-4 md:mt-0 w-full md:w-auto h-14 md:h-16 px-6 text-sm md:text-sm-15 submit-btn'
                 >
                   {
                     loading ? "Processing..." : "Join the waitlist"
