@@ -101,7 +101,7 @@ const Home = () => {
     <div className='container px-4 lg:px-6 mx-auto pt-16 flex flex-col justify-between'>
       <LogoSection />
 
-      <div className='flex flex-row flex-wrap justify-between mt-16'>
+      <div className='flex flex-row flex-wrap justify-between mt-24 lg:mt-16'>
         <div className='w-full lg:w-6/12'>
           <Animate.Fade bottom>
             <h1 className='w-10/12 lg:w-full font-bold text-4xl md:text-4xl lg:text-5xl xl:text-6xl xl:leading-tight text-white'>
