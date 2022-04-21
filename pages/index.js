@@ -1,10 +1,48 @@
+import axios from 'axios';
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
+import React, { useState } from 'react';
 import * as Animate from "react-reveal";
 import TopImage from "../public/images/image.png"
 
 const Home = () => {
+  const [email, setEmail] = useState("");
+  const [success, setSuccess] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
+
+  const handleSubmit = async (e) => {
+    e.preventDefault()
+    setError("")
+
+    if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(email)) {
+      setError("Invalid email address");
+    }
+
+    const payload = {
+      email
+    }
+
+    setLoading(true)
+
+    try {
+      const resp = await axios.post("/api/join", payload, {
+        headers: {
+          'Content-Type': 'application/json',
+        }
+      })
+
+      if (resp?.data?.status === "success") {
+        setEmail("")
+        setSuccess(true)
+      }
+      setLoading(false)
+    } catch (error) {
+      setError("Failed! Try again.")
+      setSuccess(false)
+      setLoading(false)
+    }
+  }
   return <main className='min-h-screen w-full relative landing-page-section'>
     <div className='container px-4 lg:px-6 mx-auto pt-16'>
       <nav>
@@ -28,17 +66,32 @@ const Home = () => {
             </p>
 
             <div className='mt-12'>
-              <form className='flex flex-col md:flex-row'>
+              <form onSubmit={handleSubmit} className='flex flex-col md:flex-row'>
                 <input
+                  disabled={success}
                   type={"email"}
+                  name="email"
+                  value={email}
+                  onChange={(e) => {
+                    setError("");
+                    setEmail(e.target.value)
+                  }}
                   placeholder="Enter your email"
                   className="w-full md:w-7/12 h-12 md:h-16 px-6 bg-grey ring-0 focus:ring-0 outline-none focus:outline-none text-sm md:text-sm-15 placeholder:text-gray-700 text-gray-700 "
                 />
 
-                <button className='mt-3 md:mt-0 w-full md:w-auto h-12 md:h-16 px-6 bg-default text-white text-sm md:text-sm-15'>
-                  Join the waitlist
+                <button
+                  disabled={loading || success}
+                  type='submit'
+                  className='mt-3 md:mt-0 w-full md:w-auto h-12 md:h-16 px-6 bg-default text-white text-sm md:text-sm-15'
+                >
+                  {
+                    loading ? "Processing..." : "Join the waitlist"
+                  }
                 </button>
               </form>
+              {success && <p className='mt-3 text-green-700 text-sm lg:text-sm-15'>🎉 Joined waitlist successfully!</p>}
+              {error && <p className='mt-3 text-red-700 text-sm lg:text-sm-15'>{error}</p>}
             </div>
           </Animate.Fade>
         </div>
@@ -55,7 +108,7 @@ const Home = () => {
         <Animate.Fade bottom>
           <div className='flex flex-row justify-center lg:justify-start items-center space-x-3'>
             <a
-              href='https://www.linkedin.com/company/entrova/'
+              href='https://www.facebook.com/entrovahq'
               target={"_blank"}
               rel="noopener noreferrer"
             >
@@ -99,9 +152,6 @@ const Home = () => {
           </div>
         </Animate.Fade>
       </footer>
-
-
-
     </div>
   </main>
 
