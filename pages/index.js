@@ -68,6 +68,7 @@ const Home = () => {
   const handleSubmit = async (e) => {
     e.preventDefault()
     setError("")
+    setSuccess(false)
 
     if (!email || !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(email) || error) {
       setError("Invalid email address");
