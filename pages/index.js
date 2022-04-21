@@ -3,7 +3,61 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
 import * as Animate from "react-reveal";
-import TopImage from "../public/images/image.png"
+
+import Logo from "../public/images/logo.svg"
+
+const LogoSection = () => {
+  return <nav>
+    <Link href={"/"}>
+      <a className='font-bold text-2xl text-default'>
+        <Image src={Logo} alt="Entrova" />
+      </a>
+    </Link>
+  </nav>
+}
+
+const Footer = () => {
+  return <footer className='mt-24 lg:mt-28 pb-12 xl:pb-0 flex flex-col lg:flex-row items-center '>
+    <Animate.Fade bottom>
+      <div className='flex flex-row justify-center lg:justify-start items-center space-x-6 lg:space-x-3'>
+        <a
+          href='https://www.facebook.com/entrovahq'
+          target={"_blank"}
+          rel="noopener noreferrer"
+        >
+          <svg className='w-6 h-4' viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14.7556 2.54999C13.9956 2.54987 13.2658 2.84811 12.7235 3.38056C12.1811 3.913 11.8695 4.63709 11.8556 5.39699L11.8276 6.97199C11.8259 7.05656 11.8064 7.13982 11.7704 7.21632C11.7343 7.29281 11.6824 7.36082 11.6182 7.41587C11.554 7.47092 11.4789 7.51178 11.3978 7.53575C11.3167 7.55973 11.2314 7.56629 11.1476 7.55499L9.58659 7.34299C7.53259 7.06299 5.56459 6.11699 3.67659 4.54399C3.07859 7.85399 4.24659 10.147 7.05959 11.916L8.80659 13.014C8.88959 13.0662 8.95855 13.1379 9.00743 13.2228C9.05631 13.3078 9.08363 13.4035 9.08698 13.5015C9.09034 13.5995 9.06963 13.6968 9.02668 13.7849C8.98372 13.873 8.91983 13.9493 8.84059 14.007L7.24859 15.17C8.19559 15.229 9.09459 15.187 9.84059 15.039C14.5586 14.097 17.6956 10.547 17.6956 4.69099C17.6956 4.21299 16.6836 2.54999 14.7556 2.54999ZM9.85559 5.35999C9.87304 4.39604 10.1745 3.45866 10.7221 2.66521C11.2698 1.87177 12.0394 1.25751 12.9345 0.899359C13.8296 0.541207 14.8105 0.455072 15.7543 0.65174C16.6982 0.848407 17.563 1.31914 18.2406 2.00499C18.9516 1.99999 19.5566 2.17999 20.9096 1.35999C20.5746 2.99999 20.4096 3.71199 19.6956 4.69099C19.6956 12.333 14.9986 16.049 10.2326 17C6.96459 17.652 2.21259 16.581 0.850586 15.159C1.54459 15.105 4.36459 14.802 5.99459 13.609C4.61559 12.7 -0.873414 9.46999 2.73359 0.785992C4.42659 2.76299 6.14359 4.10899 7.88359 4.82299C9.04159 5.29799 9.32559 5.28799 9.85659 5.36099L9.85559 5.35999Z" fill="#CAB603" />
+          </svg>
+
+        </a>
+
+        <a
+          href='https://www.linkedin.com/company/entrova/'
+          target={"_blank"}
+          rel="noopener noreferrer"
+        >
+          <svg className='w-5 h-4' viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9.34766 6.55C10.2647 5.613 11.4587 5 12.8477 5C14.3063 5 15.7053 5.57946 16.7367 6.61091C17.7682 7.64236 18.3477 9.04131 18.3477 10.5V18H16.3477V10.5C16.3477 9.57174 15.9789 8.6815 15.3225 8.02513C14.6662 7.36875 13.7759 7 12.8477 7C11.9194 7 11.0292 7.36875 10.3728 8.02513C9.71641 8.6815 9.34766 9.57174 9.34766 10.5V18H7.34766V5.5H9.34766V6.55ZM2.34766 3.5C1.94983 3.5 1.5683 3.34196 1.287 3.06066C1.00569 2.77936 0.847656 2.39782 0.847656 2C0.847656 1.60218 1.00569 1.22064 1.287 0.93934C1.5683 0.658035 1.94983 0.5 2.34766 0.5C2.74548 0.5 3.12701 0.658035 3.40832 0.93934C3.68962 1.22064 3.84766 1.60218 3.84766 2C3.84766 2.39782 3.68962 2.77936 3.40832 3.06066C3.12701 3.34196 2.74548 3.5 2.34766 3.5ZM1.34766 5.5H3.34766V18H1.34766V5.5Z" fill="#CAB603" />
+          </svg>
+
+        </a>
+
+        <a
+          href='https://twitter.com/entrovahq'
+          target={"_blank"}
+          rel="noopener noreferrer"
+        >
+          <svg className='w-6 h-5' viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11.4561 17.938C13.4733 17.6813 15.3172 16.6661 16.6129 15.0988C17.9085 13.5314 18.5588 11.5295 18.4314 9.49997C18.3041 7.47041 17.4087 5.56549 15.9273 4.17238C14.4459 2.77927 12.4896 2.00252 10.4561 2C8.42001 1.99848 6.46 2.77334 4.97539 4.16668C3.49078 5.56002 2.59329 7.46699 2.4658 9.49904C2.3383 11.5311 2.99039 13.5353 4.2892 15.1033C5.58801 16.6712 7.43579 17.685 9.45605 17.938V12H7.45605V10H9.45605V8.346C9.45605 7.009 9.59605 6.524 9.85605 6.035C10.1122 5.55119 10.508 5.15569 10.9921 4.9C11.3741 4.695 11.8491 4.572 12.6791 4.519C13.0081 4.498 13.4341 4.524 13.9571 4.599V6.499H13.4561C12.5391 6.499 12.1601 6.542 11.9341 6.663C11.7992 6.73236 11.6894 6.84215 11.6201 6.977C11.5001 7.203 11.4561 7.427 11.4561 8.345V10H13.9561L13.4561 12H11.4561V17.938ZM10.4561 20C4.93305 20 0.456055 15.523 0.456055 10C0.456055 4.477 4.93305 0 10.4561 0C15.9791 0 20.4561 4.477 20.4561 10C20.4561 15.523 15.9791 20 10.4561 20Z" fill="#CAB603" />
+          </svg>
+        </a>
+      </div>
+      <div className='mt-10 lg:mt-0 text-xs lg:text-sm text-white text-center lg:text-left ml-0 lg:ml-6 '>
+        <p>©{new Date().getFullYear()} Entrova. All Right Reserved.</p>
+      </div>
+    </Animate.Fade>
+  </footer>
+}
 
 const Home = () => {
   const [email, setEmail] = useState("");
@@ -44,25 +98,19 @@ const Home = () => {
     }
   }
   return <main className='min-h-screen w-full relative landing-page-section'>
-    <div className='container px-4 lg:px-6 mx-auto pt-16'>
-      <nav>
-        <Link href={"/"}>
-          <a className='font-bold text-2xl text-default'>
-            Entrova
-          </a>
-        </Link>
-      </nav>
+    <div className='container px-4 lg:px-6 mx-auto pt-16 flex flex-col justify-between'>
+      <LogoSection />
 
-      <div className='flex flex-row flex-wrap justify-between mt-20'>
+      <div className='flex flex-row flex-wrap justify-between mt-16'>
         <div className='w-full lg:w-6/12'>
           <Animate.Fade bottom>
-            <h1 className='font-bold text-3xl md:text-4xl lg:text-5xl xl:text-6xl xl:leading-tight text-primary'>
-              Take the <span className='text-primary'>financial</span> burden off your <span className='text-secondary'>employees.</span>
+            <h1 className='w-10/12 lg:w-full font-bold text-4xl md:text-4xl lg:text-5xl xl:text-6xl xl:leading-tight text-white'>
+              Take the <span className='text-yellow'>financial burden</span> off your <span className='text-green'>employees.</span>
             </h1>
 
-            <p className='mt-8 text-base md:text-lg lg:text-xl leading-7 lg:leading-8'>
-              Allow your employees to access already earned but unpaid wages to reduce
-              financial stress and boost their productivity, motivation and retention.
+            <p className='mt-6 text-sm-15 md:text-base lg:text-lg leading-7 lg:leading-8 text-white'>
+              Entova allows your employees to access already earned but
+              unpaid wages to reduce financial stress and boost their productivity, motivation and retention.
             </p>
 
             <div className='mt-12'>
@@ -77,81 +125,27 @@ const Home = () => {
                     setEmail(e.target.value)
                   }}
                   placeholder="Enter your email"
-                  className="w-full md:w-7/12 h-12 md:h-16 px-6 bg-grey ring-0 focus:ring-0 outline-none focus:outline-none text-sm md:text-sm-15 placeholder:text-gray-700 text-gray-700 "
+                  className="w-full md:w-7/12 h-14 md:h-16 px-6  ring-0 focus:ring-0 outline-none focus:outline-none text-sm md:text-sm-15  form-control "
                 />
 
                 <button
                   disabled={loading || success}
                   type='submit'
-                  className='mt-3 md:mt-0 w-full md:w-auto h-12 md:h-16 px-6 bg-default text-white text-sm md:text-sm-15'
+                  className='ml-0 md:ml-4 mt-3 md:mt-0 w-full md:w-auto h-14 md:h-16 px-6 text-sm md:text-sm-15 submit-btn'
                 >
                   {
                     loading ? "Processing..." : "Join the waitlist"
                   }
                 </button>
               </form>
-              {success && <p className='mt-3 text-green-700 text-sm lg:text-sm-15'>🎉 Joined waitlist successfully!</p>}
+              {success && <p className='mt-3 text-yellow text-sm lg:text-sm-15'>🎉 Joined waitlist successfully!</p>}
               {error && <p className='mt-3 text-red-700 text-sm lg:text-sm-15'>{error}</p>}
             </div>
           </Animate.Fade>
         </div>
-        <div className='w-full lg:w-5/12 xl:w-6/12 mt-14 lg:mt-0'>
-          <div className='flex justify-center'>
-            <Image src={TopImage} alt="" />
-          </div>
-
-        </div>
-
       </div>
 
-      <footer className='mt-16 pb-12 xl:pb-0'>
-        <Animate.Fade bottom>
-          <div className='flex flex-row justify-center lg:justify-start items-center space-x-3'>
-            <a
-              href='https://www.facebook.com/entrovahq'
-              target={"_blank"}
-              rel="noopener noreferrer"
-            >
-              <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 2.94531C6.477 2.94531 2 7.42231 2 12.9453C2 17.9363 5.657 22.0733 10.438 22.8243V15.8353H7.898V12.9453H10.438V10.7423C10.438 8.23631 11.93 6.85231 14.215 6.85231C15.309 6.85231 16.453 7.04731 16.453 7.04731V9.50731H15.193C13.95 9.50731 13.563 10.2783 13.563 11.0693V12.9453H16.336L15.893 15.8353H13.563V22.8243C18.343 22.0743 22 17.9353 22 12.9453C22 7.42231 17.523 2.94531 12 2.94531Z" fill="#ED7D31" />
-              </svg>
-            </a>
-            {/* <a
-              href='https://www.linkedin.com/company/entrova/'
-              target={"_blank"}
-              rel="noopener noreferrer"
-            >
-              <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12.5 2.94531C15.217 2.94531 15.556 2.95531 16.622 3.00531C17.687 3.05531 18.412 3.22231 19.05 3.47031C19.71 3.72431 20.266 4.06831 20.822 4.62331C21.3305 5.12321 21.724 5.7279 21.975 6.39531C22.222 7.03231 22.39 7.75831 22.44 8.82331C22.487 9.88931 22.5 10.2283 22.5 12.9453C22.5 15.6623 22.49 16.0013 22.44 17.0673C22.39 18.1323 22.222 18.8573 21.975 19.4953C21.7247 20.1631 21.3311 20.7679 20.822 21.2673C20.322 21.7756 19.7173 22.1691 19.05 22.4203C18.413 22.6673 17.687 22.8353 16.622 22.8853C15.556 22.9323 15.217 22.9453 12.5 22.9453C9.783 22.9453 9.444 22.9353 8.378 22.8853C7.313 22.8353 6.588 22.6673 5.95 22.4203C5.28233 22.1698 4.67753 21.7763 4.178 21.2673C3.66941 20.7675 3.27593 20.1628 3.025 19.4953C2.777 18.8583 2.61 18.1323 2.56 17.0673C2.513 16.0013 2.5 15.6623 2.5 12.9453C2.5 10.2283 2.51 9.88931 2.56 8.82331C2.61 7.75731 2.777 7.03331 3.025 6.39531C3.27524 5.72749 3.6688 5.12263 4.178 4.62331C4.67767 4.11454 5.28243 3.72104 5.95 3.47031C6.588 3.22231 7.312 3.05531 8.378 3.00531C9.444 2.95831 9.783 2.94531 12.5 2.94531ZM12.5 7.94531C11.1739 7.94531 9.90215 8.4721 8.96447 9.40978C8.02678 10.3475 7.5 11.6192 7.5 12.9453C7.5 14.2714 8.02678 15.5432 8.96447 16.4808C9.90215 17.4185 11.1739 17.9453 12.5 17.9453C13.8261 17.9453 15.0979 17.4185 16.0355 16.4808C16.9732 15.5432 17.5 14.2714 17.5 12.9453C17.5 11.6192 16.9732 10.3475 16.0355 9.40978C15.0979 8.4721 13.8261 7.94531 12.5 7.94531V7.94531ZM19 7.69531C19 7.36379 18.8683 7.04585 18.6339 6.81143C18.3995 6.57701 18.0815 6.44531 17.75 6.44531C17.4185 6.44531 17.1005 6.57701 16.8661 6.81143C16.6317 7.04585 16.5 7.36379 16.5 7.69531C16.5 8.02683 16.6317 8.34478 16.8661 8.5792C17.1005 8.81362 17.4185 8.94531 17.75 8.94531C18.0815 8.94531 18.3995 8.81362 18.6339 8.5792C18.8683 8.34478 19 8.02683 19 7.69531ZM12.5 9.94531C13.2956 9.94531 14.0587 10.2614 14.6213 10.824C15.1839 11.3866 15.5 12.1497 15.5 12.9453C15.5 13.741 15.1839 14.504 14.6213 15.0666C14.0587 15.6292 13.2956 15.9453 12.5 15.9453C11.7044 15.9453 10.9413 15.6292 10.3787 15.0666C9.81607 14.504 9.5 13.741 9.5 12.9453C9.5 12.1497 9.81607 11.3866 10.3787 10.824C10.9413 10.2614 11.7044 9.94531 12.5 9.94531V9.94531Z" fill="#ED7D31" />
-              </svg>
-            </a> */}
-
-            <a
-              href='https://www.linkedin.com/company/entrova/'
-              target={"_blank"}
-              rel="noopener noreferrer"
-            >
-              <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M18.335 19.2843H15.67V15.1073C15.67 14.1113 15.65 12.8293 14.28 12.8293C12.891 12.8293 12.679 13.9133 12.679 15.0343V19.2843H10.013V10.6953H12.573V11.8653H12.608C12.966 11.1913 13.836 10.4783 15.136 10.4783C17.836 10.4783 18.336 12.2563 18.336 14.5693V19.2843H18.335ZM7.003 9.52031C6.79956 9.52058 6.59806 9.48068 6.41006 9.40292C6.22207 9.32516 6.05127 9.21105 5.90746 9.06715C5.76365 8.92324 5.64965 8.75237 5.57201 8.56432C5.49437 8.37628 5.4546 8.17476 5.455 7.97131C5.4552 7.66515 5.54618 7.36592 5.71644 7.11146C5.8867 6.857 6.12859 6.65875 6.41153 6.54176C6.69447 6.42478 7.00574 6.39433 7.30598 6.45425C7.60622 6.51418 7.88196 6.66179 8.09831 6.87842C8.31466 7.09505 8.46191 7.37097 8.52145 7.67129C8.58099 7.97161 8.55013 8.28285 8.43278 8.56563C8.31544 8.84841 8.11687 9.09005 7.86219 9.25998C7.60751 9.42992 7.30817 9.52051 7.002 9.52031H7.003ZM8.339 19.2843H5.666V10.6953H8.34V19.2843H8.339ZM19.67 3.94531H4.329C3.593 3.94531 3 4.52531 3 5.24231V20.6483C3 21.3653 3.594 21.9453 4.328 21.9453H19.666C20.4 21.9453 21 21.3653 21 20.6483V5.24231C21 4.52531 20.4 3.94531 19.666 3.94531H19.669H19.67Z" fill="#ED7D31" />
-              </svg>
-            </a>
-
-            <a
-              href='https://twitter.com/entrovahq'
-              target={"_blank"}
-              rel="noopener noreferrer"
-            >
-              <svg width="18" height="15" viewBox="0 0 18 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path opacity="0.9" d="M16.1498 4.40175C16.1612 4.55534 16.1612 4.70897 16.1612 4.86256C16.1612 9.54737 12.4493 14.9454 5.66499 14.9454C3.57488 14.9454 1.63326 14.3639 0 13.3545C0.296966 13.3874 0.582471 13.3984 0.890863 13.3984C2.61546 13.3984 4.20305 12.8389 5.47083 11.8843C3.84899 11.8514 2.48985 10.8311 2.02156 9.42671C2.25001 9.4596 2.47842 9.48155 2.71829 9.48155C3.0495 9.48155 3.38074 9.43765 3.6891 9.36088C1.99875 9.03171 0.730936 7.60543 0.730936 5.88291V5.83904C1.22204 6.10236 1.79315 6.26693 2.39844 6.28884C1.40478 5.65248 0.753788 4.56632 0.753788 3.3375C0.753788 2.67923 0.936496 2.07579 1.25631 1.54916C3.07232 3.69957 5.80203 5.1039 8.86293 5.25752C8.80583 4.99421 8.77155 4.71995 8.77155 4.44565C8.77155 2.4927 10.4162 0.901855 12.4607 0.901855C13.5228 0.901855 14.4822 1.32974 15.1561 2.02095C15.9898 1.86735 16.7893 1.57111 17.4975 1.16517C17.2233 1.98805 16.6409 2.67926 15.8756 3.11809C16.618 3.04133 17.3376 2.84379 18 2.56953C17.4975 3.27168 16.8693 3.89703 16.1498 4.40175V4.40175Z" fill="#ED7D31" />
-              </svg>
-
-            </a>
-          </div>
-          <div className='mt-3 text-sm lg:text-sm text-primary text-center lg:text-left'>
-            <p>©{new Date().getFullYear()} Entrova. All Right Reserved.</p>
-          </div>
-        </Animate.Fade>
-      </footer>
+      <Footer />
     </div>
   </main>
 

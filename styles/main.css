@@ -1,4 +1,75 @@
 .landing-page-section {
-  background: linear-gradient(114.54deg, rgba(255, 255, 255, 0.5) 16.01%, rgba(244, 244, 226, 0.5) 48.74%, rgba(240, 245, 255, 0.5) 89.98%);
-  backdrop-filter: blur(4px);
+  background:
+    url("../public/images/green.svg") no-repeat,
+    url("../public/images/yellow.svg") no-repeat,
+    url("../public/images/pink.svg") no-repeat,
+    url("../public/images/lemon.svg") no-repeat,
+    url("../public/images/bg.webp") no-repeat,
+    url("../public/images/hand.webp") no-repeat #04180E;
+  background-size: 50%, 50%, 50%, 50%, cover, 45%;
+  background-position: -6rem -16rem, right -15rem top -16rem, bottom -18rem left -17rem, right 1rem bottom -8rem, center, right bottom;
+}
+
+@media screen and (max-width: 1024px) {
+  .landing-page-section {
+    background:
+      url("../public/images/green.svg") no-repeat,
+      url("../public/images/yellow.svg") no-repeat,
+      url("../public/images/pink.svg") no-repeat,
+      url("../public/images/bg.webp") no-repeat,
+      url("../public/images/hand-sm.webp") no-repeat #04180E;
+    background-size: 50%, 50%, 50%, cover, 75%;
+    background-position: -6rem -16rem, right -15rem top -16rem, right 1rem bottom -8rem, center, right top;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .landing-page-section {
+    background:
+      url("../public/images/green.svg") no-repeat,
+      url("../public/images/yellow.svg") no-repeat,
+      url("../public/images/pink.svg") no-repeat,
+      url("../public/images/bg.webp") no-repeat,
+      url("../public/images/hand-sm.webp") no-repeat #04180E;
+    background-size: 120%, 150%, 150%, cover, 75%;
+    background-position: -10rem -10rem, right -14rem center, left -14rem bottom -14rem, center, right top;
+  }
+}
+
+.text-yellow {
+  color: #CAB603;
+}
+
+.text-green {
+  color: #27D07D;
+}
+
+.form-control {
+  border: 1px solid #045B30;
+  box-sizing: border-box;
+  border-radius: 15px;
+  color: white;
+  background: transparent;
+}
+
+.form-control:focus {
+  border: 1px solid #fff;
+}
+
+.form-control::placeholder {
+  color: #038845;
+}
+
+button.submit-btn {
+  background-color: #038845;
+  border: 1px solid #27D07D;
+  box-sizing: border-box;
+  border-radius: 15px;
+  transition: all ease-in-out 200ms;
+  color: white;
+  font-weight: bold;
+}
+
+button.submit-btn:hover {
+  background-color: #017139;
 }
