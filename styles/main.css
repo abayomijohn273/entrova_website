@@ -36,6 +36,19 @@
   }
 }
 
+@media screen and (max-width: 480px) {
+  .landing-page-section {
+    background:
+      url("../public/images/green.svg") no-repeat,
+      url("../public/images/yellow.svg") no-repeat,
+      url("../public/images/pink.svg") no-repeat,
+      url("../public/images/bg.webp") no-repeat,
+      url("../public/images/hand-sm.webp") no-repeat #04180E;
+    background-size: 120%, 150%, 150%, cover, 65%;
+    background-position: -10rem -10rem, right -14rem center, left -14rem bottom -14rem, center, right top;
+  }
+}
+
 .text-yellow {
   color: #CAB603;
 }
