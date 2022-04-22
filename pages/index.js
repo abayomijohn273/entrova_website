@@ -21,7 +21,7 @@ const Footer = () => {
     <Animate.Fade bottom>
       <div className='flex flex-row justify-center lg:justify-start items-center space-x-6 lg:space-x-3'>
         <a
-          href='www.instagram.com/entrovahq'
+          href='https://www.instagram.com/entrovahq'
           target={"_blank"}
           rel="noopener noreferrer"
         >
