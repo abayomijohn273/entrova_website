@@ -126,12 +126,12 @@ const Home = () => {
         <div className='w-full lg:w-6/12'>
           <Animate.Fade bottom>
             <h1 className='w-10/12 lg:w-full font-bold text-4xl md:text-4xl lg:text-5xl xl:text-6xl xl:leading-tight text-white'>
-              Take the <span className='text-yellow'>financial burden</span> off your <span className='text-green'>employees.</span>
+            Powering How You <span className='text-yellow'>Save</span> and Access <span className='text-green'>Cheap Credit.</span>
             </h1>
 
             <p className='mt-6 text-sm-15 md:text-base lg:text-lg leading-7 lg:leading-8 text-white'>
-              Entrova is a personalized financial health platform that partners with employers to ensure
-              that in times of financial need, their employees can access emergency aid swiftly and with dignity.
+            We are converting your saving pattern to rich information to convince more loan companies 
+            to give you bigger facilities for lower interest rate!
             </p>
 
             <div className='mt-12'>
