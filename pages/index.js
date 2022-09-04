@@ -188,11 +188,11 @@ const Home = () => {
                         content="Our platform will help you build a more intelligent savings habit."
                     />
                     <Card
-                        title={<>300+ Credit <span className='text-secondary'>Provider</span></>}
+                        title={<>300+ Credit <span className='text-secondary'>Providers</span></>}
                         content="Your saving data can help you negotiate bigger loan with our loan partners."
                     />
                     <Card
-                        title={<>CheckOut Like <span className='text-secondary'>A Pro</span></>}
+                        title={<>Checkout Like <span className='text-secondary'>A Pro</span></>}
                         content="We know you are saving towards something- we will help you buy now and you pay later. "
                     />
                     <Card
