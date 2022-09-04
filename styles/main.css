@@ -86,3 +86,9 @@ button.submit-btn {
 button.submit-btn:hover {
   background-color: #017139;
 }
+
+.brief-section {
+    background: url("../public/images/v.svg") no-repeat;
+    background-position: right bottom;
+    background-size: 50%;
+}
