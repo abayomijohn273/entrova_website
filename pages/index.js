@@ -136,13 +136,12 @@ const Home = () => {
                 <div className='flex flex-row flex-wrap justify-between mt-24 lg:mt-16'>
                     <div className='w-full lg:w-6/12'>
                         <Animate.Fade bottom>
-                            <h1 className='w-10/12 lg:w-full font-bold text-4xl md:text-4xl lg:text-5xl xl:text-6xl xl:leading-tight text-white'>
-                                Savings That Converts To <span className='text-yellow'>Better Credit</span> and <span className='text-green'>Moves With You.</span>
+                            <h1 className='w-10/12 lg:w-10/12 font-bold text-4xl md:text-4xl lg:text-5xl xl:text-6xl xl:leading-tight text-white'>
+                            We won&apos;t <span className='text-yellow'>leave</span> you <span className='text-green'>stranded!</span>
                             </h1>
 
                             <p className='mt-6 text-sm-15 md:text-base lg:text-lg leading-7 lg:leading-8 text-white'>
-                                We are converting your saving pattern to rich information to convince more loan companies
-                                to give you bigger facilities for lower interest rate!
+                                From one single app, we help you access any loan, credit(and card), mortgage and BNPL. We understand how painful it is to be denied loan or mortgage when you need it so much. That ends with Entrova.
                             </p>
 
                             <div className='mt-12'>
@@ -181,31 +180,34 @@ const Home = () => {
             </div>
         </div>
         <div className='pt-20 md:pt-28 lg:pt-32 pb-32 lg:pb-40 bg-white brief-section'>
-            <div className='container mx-auto px-4 flex flex-row flex-wrap'>
-                <div className='w-full md:w-6/12 lg:w-5/12 xl:w-4/12 space-y-10'>
-                    <Card
-                        title={<>More With <span className='text-secondary'>Savings</span></>}
-                        content="Our platform will help you build a more intelligent savings habit."
-                    />
-                    <Card
-                        title={<>300+ Credit <span className='text-secondary'>Providers</span></>}
-                        content="Your saving data can help you negotiate bigger loan with our loan partners."
-                    />
-                    <Card
-                        title={<>Checkout Like <span className='text-secondary'>A Pro</span></>}
-                        content="We know you are saving towards something- we will help you buy now and you pay later. "
-                    />
-                    <Card
-                        title={<>Move With <span className='text-secondary'>Entrova</span></>}
-                        content="When you relocate to a new country, your savings data will help you build better credit score. "
-                    />
-                </div>
-
-                <div className='mx-auto w-10/12 lg:w-4/12 xl:5/12 mt-12 md:mt-0 relative lg:left-12 pb-24 md:pb-0'>
-                    <div className=''>
-                        <Image src={AppImage} alt="" />
+            <div className='container mx-auto px-4'>
+                <h3 className='text-2xl md:text-3xl lg:text-4xl xl:text-5xl xl:leading-tight font-bold text-default'>It&apos;s amazon for all <br/><span className='text-yellow'>financial</span> services.</h3>
+                <div className='flex flex-row flex-wrap mt-10 lg:mt-14'>
+                    <div className='w-full md:w-6/12 lg:w-5/12 xl:w-4/12 space-y-10'>
+                        <Card
+                            title={<>Travel with Your <span className='text-secondary'>Credit Score</span></>}
+                            content="You will never have to be build a credit score again from the beginning."
+                        />
+                        <Card
+                            title={<>Search for The <span className='text-secondary'>Best Loan</span></>}
+                            content="Our platform takes your data to help you find the best loan out there."
+                        />
+                        <Card
+                            title={<>Access Mortgage from <span className='text-secondary'>Dashboard</span></>}
+                            content="With over 200 partners, your search for mortgage is made easier."
+                        />
+                        <Card
+                            title={<>Multiple BNPL from <span className='text-secondary'>One App</span></>}
+                            content="You can access multiple BNPL options from Entrova."
+                        />
                     </div>
 
+                    <div className='mx-auto w-10/12 lg:w-4/12 xl:5/12 mt-12 md:mt-0 relative lg:left-12 pb-24 md:pb-0'>
+                        <div className=''>
+                            <Image src={AppImage} alt="" />
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
