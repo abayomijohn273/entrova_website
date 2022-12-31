@@ -190,7 +190,7 @@ const Home = () => {
                         />
                         <Card
                             title={<>Entrova Credit Passport,  <span className='text-secondary'>ECP</span></>}
-                            content="Our platform takes your data to help you find the best loan out there."
+                            content="Moving Countries? You can now use Entrova to quickly qualify for rent referencing, pay monthly and report to a global credit system. With Entrova, you can access Credit cards faster."
                         />
                         <Card
                             title={<>For Businesses: <span className='text-secondary'>Access New Customers</span></>}
