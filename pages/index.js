@@ -137,11 +137,11 @@ const Home = () => {
                     <div className='w-full lg:w-6/12'>
                         <Animate.Fade bottom>
                             <h1 className='w-10/12 lg:w-10/12 font-bold text-4xl md:text-4xl lg:text-5xl xl:text-6xl xl:leading-tight text-white'>
-                            We won&apos;t <span className='text-yellow'>leave</span> you <span className='text-green'>stranded!</span>
+                            Credit that <span className='text-yellow'>travels</span> with <span className='text-green'>you!</span>
                             </h1>
 
                             <p className='mt-6 text-sm-15 md:text-base lg:text-lg leading-7 lg:leading-8 text-white'>
-                                From one single app, we help you access any loan, credit(and card), mortgage and BNPL. We understand how painful it is to be denied loan or mortgage when you need it so much. That ends with Entrova.
+                               We are breaking the traditional credit system so that from one app, you can access multiple loan options, build a global credit score and travel with your credit history. 
                             </p>
 
                             <div className='mt-12'>
@@ -181,24 +181,20 @@ const Home = () => {
         </div>
         <div className='pt-20 md:pt-28 lg:pt-32 pb-32 lg:pb-40 bg-white brief-section'>
             <div className='container mx-auto px-4'>
-                <h3 className='text-2xl md:text-3xl lg:text-4xl xl:text-5xl xl:leading-tight font-bold text-default'>It&apos;s amazon for all <br/><span className='text-yellow'>financial</span> services.</h3>
+                <h3 className='text-2xl md:text-3xl lg:text-4xl xl:text-5xl xl:leading-tight font-bold text-default'>One Global App, <br/><span className='text-yellow'>Move With Your Credit</span></h3>
                 <div className='flex flex-row flex-wrap mt-10 lg:mt-14'>
-                    <div className='w-full md:w-6/12 lg:w-5/12 xl:w-4/12 space-y-10'>
+                    <div className='w-full md:w-7/12 lg:w-6/12 xl:w-5/12 space-y-10'>
                         <Card
-                            title={<>Travel with Your <span className='text-secondary'>Credit Score</span></>}
-                            content="You will never have to be build a credit score again from the beginning."
+                            title={<>Access Credit on  <span className='text-secondary'>One App</span></>}
+                            content="Our API will help you apply for loans from any lender without hassle."
                         />
                         <Card
-                            title={<>Search for The <span className='text-secondary'>Best Loan</span></>}
+                            title={<>Entrova Credit Passport,  <span className='text-secondary'>ECP</span></>}
                             content="Our platform takes your data to help you find the best loan out there."
                         />
                         <Card
-                            title={<>Access Mortgage from <span className='text-secondary'>Dashboard</span></>}
-                            content="With over 200 partners, your search for mortgage is made easier."
-                        />
-                        <Card
-                            title={<>Multiple BNPL from <span className='text-secondary'>One App</span></>}
-                            content="You can access multiple BNPL options from Entrova."
+                            title={<>For Businesses: <span className='text-secondary'>Access New Customers</span></>}
+                            content="Entrova helps businesses access trusted financial data to confidently serve millions of consumers with credit cards, personal loans, auto loans, student loans, and more."
                         />
                     </div>
 
