@@ -20,7 +20,7 @@ const LogoSection = () => {
 const Card = ({ title, content }) => {
     return <div className=''>
         <h3 className='text-2xl font-semibold text-default'>{title}</h3>
-        <p className='text-sm-15 lg:text-base mt-4 text-gray-500'>
+        <p className='text-sm-15 lg:text-base xl:text-lg mt-4 text-gray-500'>
             {content}
         </p>
     </div>
@@ -136,12 +136,13 @@ const Home = () => {
                 <div className='flex flex-row flex-wrap justify-between mt-24 lg:mt-16'>
                     <div className='w-full lg:w-6/12'>
                         <Animate.Fade bottom>
-                            <h1 className='w-10/12 lg:w-10/12 font-bold text-4xl md:text-4xl lg:text-5xl xl:text-6xl xl:leading-tight text-white'>
-                            Credit that <span className='text-yellow'>travels</span> with <span className='text-green'>you!</span>
+                            <h1 className='font-bold text-4xl md:text-4xl lg:text-5xl xl:text-6xl xl:leading-tight text-white'>
+                            Excuse me! They are not dead <span className='text-green'>software</span> <span className='text-yellow'>products</span>
                             </h1>
 
                             <p className='mt-6 text-sm-15 md:text-base lg:text-lg leading-7 lg:leading-8 text-white'>
-                               We are breaking the traditional credit system so that from one app, you can access multiple loan options, build a global credit score and travel with your credit history. 
+                              Entrova takes some of the best ‘but abandoned’ software products built by 
+                              world-best engineers out there into products that enterprises are ready to buy
                             </p>
 
                             <div className='mt-12'>
@@ -162,10 +163,10 @@ const Home = () => {
                                     <button
                                         disabled={loading || success}
                                         type='submit'
-                                        className='ml-0 md:ml-4 mt-4 md:mt-0 w-full md:w-auto h-14 md:h-16 px-6 text-sm md:text-sm-15 submit-btn'
+                                        className='ml-0 md:ml-4 mt-4 md:mt-0 w-full md:w-auto h-14 md:h-16 px-8 text-sm md:text-sm-15 submit-btn'
                                     >
                                         {
-                                            loading ? "Processing..." : "Join the waitlist"
+                                            loading ? "Processing..." : "Let's talk"
                                         }
                                     </button>
                                 </form>
@@ -181,20 +182,24 @@ const Home = () => {
         </div>
         <div className='pt-20 md:pt-28 lg:pt-32 pb-32 lg:pb-40 bg-white brief-section'>
             <div className='container mx-auto px-4'>
-                <h3 className='text-2xl md:text-3xl lg:text-4xl xl:text-5xl xl:leading-tight font-bold text-default'>One Global App, <br/><span className='text-yellow'>Move With Your Credit</span></h3>
+                <h3 className='text-2xl md:text-3xl lg:text-4xl xl:text-5xl xl:leading-tight font-bold text-default'>The <span className='text-green'>$959</span> Billion USD Industry</h3>
                 <div className='flex flex-row flex-wrap mt-10 lg:mt-14'>
                     <div className='w-full md:w-7/12 lg:w-6/12 xl:w-5/12 space-y-10'>
                         <Card
-                            title={<>Access Credit on  <span className='text-secondary'>One App</span></>}
-                            content="Our API will help you apply for loans from any lender without hassle."
+                            title={<>From the Best CTOs and Software Engineers</>}
+                            content="We are an exclusive and invite-only platform that takes some of the best products out there from the best"
                         />
                         <Card
-                            title={<>Entrova Credit Passport,  <span className='text-secondary'>ECP</span></>}
-                            content="Moving Countries? You can now use Entrova to quickly qualify for rent referencing, pay monthly and report to a global credit system. With Entrova, you can access Credit cards faster."
+                            title={<>Our Products come from more than 30 countries</>}
+                            content="We understand that there are billions of products from different parts of the world."
                         />
                         <Card
-                            title={<>For Businesses: <span className='text-secondary'>Access New Customers</span></>}
-                            content="Entrova helps businesses access trusted financial data to confidently serve millions of consumers with credit cards, personal loans, auto loans, student loans, and more."
+                            title={<>Product Transformation in 1 Months or Less</>}
+                            content="Our engineering team take on your products and transform them for use."
+                        />
+                        <Card
+                            title={<>Everything From Entrova Dashboard</>}
+                            content="From Our dashboard, accept payment when an enterprise buys your product."
                         />
                     </div>
 
