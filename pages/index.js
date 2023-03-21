@@ -182,7 +182,7 @@ const Home = () => {
         </div>
         <div className='pt-20 md:pt-28 lg:pt-32 pb-32 lg:pb-40 bg-white brief-section'>
             <div className='container mx-auto px-4'>
-                <h3 className='text-2xl md:text-3xl lg:text-4xl xl:text-5xl xl:leading-tight font-bold text-default'>The <span className='text-green'>$959</span> Billion USD Industry</h3>
+                <h3 className='text-2xl md:text-3xl lg:text-4xl xl:text-5xl xl:leading-tight font-bold text-default'>The <span className='text-green'>$959</span> Billion Industry</h3>
                 <div className='flex flex-row flex-wrap mt-10 lg:mt-14'>
                     <div className='w-full md:w-7/12 lg:w-6/12 xl:w-5/12 space-y-10'>
                         <Card
