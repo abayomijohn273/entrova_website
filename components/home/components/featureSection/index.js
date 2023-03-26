@@ -30,22 +30,22 @@ const FeatureSection = () => {
                             <Card
                                 icon={CodeIcon}
                                 title={<>From the Best CTOs and Software Engineers</>}
-                                content="We are an exclusive and invite-only platform that takes some of the best products out there from the best"
+                                content="We invite innovative solutions from some of the best software developers from over 30 countries."
                             />
                             <Card
                                 icon={WorldIcon}
-                                title={<>Our Products come from more than 30 countries</>}
-                                content="We understand that there are billions of products from different parts of the world."
+                                title={<>Leveraging AI-powered Technology</>}
+                                content="Our AI-powered technology run a deep-dive analysis on the code and market opportunities."
                             />
                             <Card
                                 icon={ProductIcon}
-                                title={<>Product Transformation in 1 Months or Less</>}
-                                content="Our engineering team take on your products and transform them for use."
+                                title={<>Everything From Entrova Dashboards</>}
+                                content="From Our dashboard, Product Innovators accept payment when an enterprise buys your product."
                             />
                             <Card
                                 icon={LaptopIcon}
-                                title={<>Everything From Entrova Dashboard</>}
-                                content="From Our dashboard, accept payment when an enterprise buys your product."
+                                title={<>Multiple Business Model</>}
+                                content="We have innovated over 5 different business models with billion dollar in potential revenue."
                             />
                         </div>
                     </div>
