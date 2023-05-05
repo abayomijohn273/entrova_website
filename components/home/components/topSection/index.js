@@ -63,15 +63,15 @@ const TopSection = () => {
                 <LogoSection />
 
                 <div className='flex flex-row flex-wrap justify-center mt-24 lg:mt-20'>
-                    <div className='w-full md:w-8/12 lg:w-7/12 xl:w-6/12 text-center'>
+                    <div className='w-full md:w-10/12 lg:w-9/12 xl:w-8/12 text-center'>
                         <Animate.Fade bottom>
                             <h1 className='font-bold text-4xl md:text-4xl lg:text-5xl xl:text-6xl xl:leading-tight text-white'>
-                                AI-powered Multi-tenant Product Lab
+                                AI-powered Global Product For Cross-border Talent
                             </h1>
 
-                            <p className='px-4 mt-6 text-sm-15 md:text-base lg:text-lg leading-6 lg:leading-8 text-white'>
-                                Entrova takes some of the best ‘but abandoned’ software products built by
-                                world-best engineers out there into products that enterprises are ready to buy
+                            <p className='lg:w-11/12 mx-auto text-center px-4 mt-6 lg:mt-8 text-sm-15 md:text-base lg:text-lg leading-6 lg:leading-8 text-white'>
+                                All-in-One Solution that helps fast-rising enterprises manage how they hire, manage and provide
+                                competitive values and benefits to employees across 150 countries.
                             </p>
 
                             <div className='mt-12 lg:mt-14'>
