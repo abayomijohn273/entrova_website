@@ -4,7 +4,7 @@ import Link from 'next/link';
 import * as Animate from "react-reveal";
 import axios from 'axios';
 import Logo from "../../../../public/images/logo.svg"
-import AppImage from "../../../../public/images/app.webp"
+import { toast } from 'react-hot-toast';
 
 const LogoSection = () => {
     return <nav>
@@ -19,17 +19,13 @@ const LogoSection = () => {
 
 const TopSection = () => {
     const [email, setEmail] = useState("");
-    const [success, setSuccess] = useState(false);
     const [loading, setLoading] = useState(false);
-    const [error, setError] = useState("");
 
     const handleSubmit = async (e) => {
         e.preventDefault()
-        setError("")
-        setSuccess(false)
 
-        if (!email || !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(email) || error) {
-            setError("Invalid email address");
+        if (!email || !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(email)) {
+            toast.error("Invalid email address");
         } else {
             const payload = {
                 email
@@ -46,12 +42,11 @@ const TopSection = () => {
 
                 if (resp?.data?.status === "success") {
                     setEmail("")
-                    setSuccess(true)
+                    toast.success("🎉 Joined waitlist successfully!")
                 }
                 setLoading(false)
             } catch (error) {
-                setError("Failed! Try again.")
-                setSuccess(false)
+                toast.error("Failed! Try again.")
                 setLoading(false)
                 setEmail("")
             }
@@ -79,12 +74,10 @@ const TopSection = () => {
                                 <form onSubmit={handleSubmit} className='flex flex-col md:flex-row justify-center'>
                                     <input
                                         autoComplete="off"
-                                        disabled={success}
                                         type={"email"}
                                         name="email"
                                         value={email}
                                         onChange={(e) => {
-                                            setError("");
                                             setEmail(e.target.value)
                                         }}
                                         placeholder="Enter your email address"
@@ -92,17 +85,13 @@ const TopSection = () => {
                                     />
 
                                     <button
-                                        disabled={loading || success}
+                                        disabled={loading}
                                         type='submit'
                                         className='ml-0 md:ml-4 mt-4 md:mt-0 w-full md:w-auto h-14 md:h-16 px-8 text-sm md:text-sm-15 submit-btn'
                                     >
-                                        {
-                                            loading ? "Processing..." : "Let's talk"
-                                        }
+                                        {loading ? "Processing..." : "Let's talk"}
                                     </button>
                                 </form>
-                                {success && <p className='mt-3 text-yellow text-sm lg:text-sm-15'>🎉 Joined waitlist successfully!</p>}
-                                {error && <p className='mt-3 text-red-700 text-sm lg:text-sm-15'>{error}</p>}
                             </div>
                         </Animate.Fade>
                     </div>

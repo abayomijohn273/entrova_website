@@ -62,7 +62,7 @@ const Footer = () => {
                             </a>
                             </div>
                             <p className='pl-0 lg:pl-2 mt-6 lg:mt-0 text-xs lg:text-sm text-primary w-full lg:text-left text-center'>
-                                <p>©{new Date().getFullYear()} Entrova. All Right Reserved.</p>
+                                <span>©{new Date().getFullYear()} Entrova. All Right Reserved.</span>
                             </p>
                         </div>
                     </Animate.Fade>
