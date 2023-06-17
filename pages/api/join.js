@@ -40,6 +40,7 @@ export default async (req, res) => {
             message: "Submitted Succesfully!"
         })
     } catch (error) {
+        console.log(error)
         return res.status(400).json({
             status: "failed",
             message: "Submitted Failed!"

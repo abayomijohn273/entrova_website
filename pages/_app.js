@@ -4,7 +4,7 @@ import Head from "next/head"
 function MyApp({ Component, pageProps }) {
   return <>
    <Head>
-      <title>Entrova | Multi-Continental Employee Value</title>
+      <title>Entrova | Multi-currency and AI-powered Global Talent Management Solution</title>
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <meta name="author" content="Abayomi Olatunji" />
