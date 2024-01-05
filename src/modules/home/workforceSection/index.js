@@ -1,5 +1,5 @@
-import Image from 'next/image'
 import React from 'react'
+import Image from 'next/image'
 import PeopleImage from "../../../../public/images/webp/people.webp"
 import EmployeeImage from "../../../../public/images/webp/employee.webp"
 import TeamDashboardImage from "../../../../public/images/webp/team-dashboard.webp"
