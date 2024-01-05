@@ -82,58 +82,67 @@ const AboutSection = () => {
                 </div>
             </div>
 
-            <div className='container px-4 lg:px-0 xl:px-8 2xl:px-0 mx-auto pt-[5rem] lg:pt-[7.25rem]'>
-                <p className='w-full md:w-10/12 lg:w-9/12 text-xl font-medium text-white leading-relaxed pb-[5.5rem]'>
-                    <span className='text-secondary'>Entrova is all about making it easy to handle global teams. We know
-                        it can be tough for businesses with teams all over the world.</span> We offers a
-                    thoughtfully crafted solution, providing a seamless and effective approach
-                    to global workforce management.
-                </p>
+            <div className='relative '>
+                <div className='container px-4 lg:px-0 xl:px-8 2xl:px-0 mx-auto pt-[5rem] lg:pt-[7.25rem]'>
+                    <p className='w-full md:w-10/12 lg:w-9/12 text-xl font-medium text-white leading-relaxed pb-[5.5rem]'>
+                        <span className='text-secondary'>Entrova is all about making it easy to handle global teams. We know
+                            it can be tough for businesses with teams all over the world.</span> We offers a
+                        thoughtfully crafted solution, providing a seamless and effective approach
+                        to global workforce management.
+                    </p>
 
-                <div className='relative grid grid-cols-1 lg:grid-cols-2 gap-x-6'>
-                    <div className='flex flex-col justify-between'>
-                        <p className='w-full md:w-9/12 lg:w-full text-white font-bold text-[2.625rem] leading-[56px]'>
-                            Enjoy the benefits of consolidating everything
-                            into <span className='text-secondary'>one platform</span>
-                        </p>
+                    <div className='relative grid grid-cols-1 lg:grid-cols-2 gap-x-6'>
+                        <div className='flex flex-col justify-between'>
+                            <p className='w-full md:w-9/12 lg:w-full text-white font-bold text-[2.625rem] leading-[56px]'>
+                                Enjoy the benefits of consolidating everything
+                                into <span className='text-secondary'>one platform</span>
+                            </p>
 
-                        {/* <div className='mt-[5rem] relative translate-x-[-5%] md:translate-x-[-6.7%] bottom-0'>
-                            <Image src={Dashboard2Image} alt='Dashboard' className='' />
-                        </div> */}
-                    </div>
+                            {/* Mobile only */}
+                            <div className='mt-[5rem] relative translate-x-[-5%] md:translate-x-[-6.5%] bottom-0'>
+                                <Image src={Dashboard2Image} alt='Dashboard' className='' />
+                            </div>
+                        </div>
 
-                    <div className='mt-[4.25rem] lg:mt-0 pb-[7.125rem]'>
-                        <ul className='flex flex-col gap-y-6'>
-                            <BenefitListItem
-                                title={"Hire and onboard employees and contracts from anywhere"}
-                                description={`Allow us to hire staff on your behalf, facilitating rapid onboarding in
+                        <div className='mt-[4.25rem] lg:mt-0 pb-[7.125rem]'>
+                            <ul className='flex flex-col gap-y-6'>
+                                <BenefitListItem
+                                    title={"Hire and onboard employees and contracts from anywhere"}
+                                    description={`Allow us to hire staff on your behalf, facilitating rapid onboarding in
                                 150+ nations while avoiding additional expenses and administrative burdens.`}
-                            />
-                            <BenefitListItem
-                                title={"Prevent Misclassification with Entrova Shield"}
-                                description={`Save time and reduce hassle with simplified W9 generation for your 
+                                />
+                                <BenefitListItem
+                                    title={"Prevent Misclassification with Entrova Shield"}
+                                    description={`Save time and reduce hassle with simplified W9 generation for your 
                                 US team and one-click 1099 filing directly from your dashboard.`}
-                            />
-                            <BenefitListItem
-                                title={"Enhance your global team's capabilities"}
-                                description={`Utilize Entrova tools to effortlessly dispatch and oversee the 
+                                />
+                                <BenefitListItem
+                                    title={"Enhance your global team's capabilities"}
+                                    description={`Utilize Entrova tools to effortlessly dispatch and oversee the 
                                 essential equipment (laptops, monitors, headphones, and more) your team requires 
                                 for remote work, all with a few simple clicks.`}
-                            />
-                            <BenefitListItem
-                                title={"Effortless Global Payroll Management"}
-                                description={`Simplify global payroll across 100+ countries on one platform, easing 
+                                />
+                                <BenefitListItem
+                                    title={"Effortless Global Payroll Management"}
+                                    description={`Simplify global payroll across 100+ countries on one platform, easing 
                                 international operations and eliminating local compliance, tax, and benefit challenges.`}
-                            />
-                            <BenefitListItem
-                                title={"Effortless Global Payroll Management"}
-                                description={`Simplify global payroll across 100+ countries on one platform, easing international 
+                                />
+                                <BenefitListItem
+                                    title={"Effortless Global Payroll Management"}
+                                    description={`Simplify global payroll across 100+ countries on one platform, easing international 
                                 operations and eliminating local compliance, tax, and benefit challenges.`}
-                            />
-                        </ul>
+                                />
+                            </ul>
+                        </div>
                     </div>
                 </div>
+
+                {/* Desktop only */}
+                <div className='mt-[5rem] hidden  lg:absolute bottom-0 '>
+                    <Image src={Dashboard2Image} alt='Dashboard' className='w-fit' />
+                </div>
             </div>
+
         </section>
     )
 }
