@@ -58,7 +58,7 @@ const WorkforceSection = () => {
                     <Image src={TeamDashboardImageMobile} alt='Team Dashboard' className='block lg:hidden' />
                 </div>
 
-                <div className='px-4 md:px-[7.188rem] xl:px-[4.8rem] 2xl:px-[7.188rem] pt-8 md:pt-16 lg:pt-8 pb-16'>
+                <div className='px-4 md:px-[7.188rem] xl:px-[4.8rem] 2xl:px-[7.188rem] pt-[5.313rem] md:pt-16 lg:pt-8 pb-16'>
                     <div className=''>
                         <p className='pr-6 md:pr-0 font-bold text-primary text-[2rem] leading-10 md:text-[2.5rem] md:leading-[48px]'>Welcome to the future of workforce
                             management. <br /><span className='text-secondary'>Get started!</span>
