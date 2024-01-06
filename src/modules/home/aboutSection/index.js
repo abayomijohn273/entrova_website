@@ -99,7 +99,7 @@ const AboutSection = () => {
                             </p>
 
                             {/* Mobile only */}
-                            <div className='mt-[5rem] relative translate-x-[-5%] md:translate-x-[-6.5%] bottom-0'>
+                            <div className='mt-[5rem] relative block lg:hidden translate-x-[-5%] md:translate-x-[-6.5%] bottom-0'>
                                 <Image src={Dashboard2Image} alt='Dashboard' className='' />
                             </div>
                         </div>
@@ -138,8 +138,8 @@ const AboutSection = () => {
                 </div>
 
                 {/* Desktop only */}
-                <div className='mt-[5rem] hidden  lg:absolute bottom-0 '>
-                    <Image src={Dashboard2Image} alt='Dashboard' className='w-fit' />
+                <div className='mt-[5rem] hidden lg:block absolute bottom-0 left-0 '>
+                    <Image src={Dashboard2Image} alt='Dashboard' className='w-auto' />
                 </div>
             </div>
 
