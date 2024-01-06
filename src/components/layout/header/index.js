@@ -6,7 +6,7 @@ import LinkButton from '@/components/elements/linkButton'
 
 const Header = () => {
     return (
-        <header className={`relative w-full overflow-hidden mx-auto bg-white`}>
+        <header className={`sticky top-0 z-10 w-full overflow-hidden mx-auto bg-white`}>
             <nav className='container px-4 lg:px-0 xl:px-8 2xl:px-0 mx-auto py-4 md:py-5'>
                 <div className='w-full flex flex-row justify-between items-center'>
                     <div className=''>
