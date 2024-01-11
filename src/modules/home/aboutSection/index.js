@@ -1,9 +1,11 @@
+"use client"
 import Image from 'next/image'
-import React from 'react'
+import React, { useLayoutEffect, useRef } from 'react'
 import OfficeImage from "../../../../public/images/webp/office.webp"
 import ExecutiveImage from "../../../../public/images/webp/executive.webp"
 import ExecutiveImageMobile from "../../../../public/images/webp/executive-mobile.webp"
 import Dashboard2Image from "../../../../public/images/webp/dashboard-2.webp"
+import { gsap } from '@/libs/gsap'
 
 const InsightCard = ({
     value,
@@ -35,10 +37,46 @@ const BenefitListItem = ({ title, description }) => {
 }
 
 const AboutSection = () => {
+    const aboutRef = useRef();
+
+    useLayoutEffect(() => {
+        let ctx = gsap.context(() => {
+            const tl2 = gsap.timeline({
+                defaults: {
+                    duration: 1
+                },
+                scrollTrigger: {
+                    trigger: ".container",
+                    start: "top 85%",
+                    
+                }
+            });
+
+            tl2.from("p span span", {
+                y: 25,
+                ease: "power2.out",
+                stagger: 0.1,
+            });
+        }, aboutRef);
+
+        return () => ctx.revert();
+    }, [])
+
+
     return (
-        <section id="about" className={`relative bg-primary pt-[7.5rem]`}>
+        <section ref={aboutRef} id="about" className={`relative bg-primary pt-[7.5rem]`}>
             <div className='container px-4 lg:px-0 xl:px-8 2xl:px-0 mx-auto pb-[5rem] lg:pb-[8.938rem]'>
-                <p className='text-base font-semibold text-secondary'>SOME KEY INSIGHTS</p>
+                <p className='text-base font-semibold text-secondary'>
+                    <span className='inline-flex overflow-hidden'>
+                        <span>SOME</span>&nbsp;
+                    </span>
+                    <span className='inline-flex overflow-hidden'>
+                        <span>KEY</span>&nbsp;
+                    </span>
+                    <span className='inline-flex overflow-hidden'>
+                        <span>INSIGHTS</span>&nbsp;
+                    </span>
+                </p>
 
                 <div className='mt-[4rem] md:mt-[2.5rem] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-10'>
                     <InsightCard
