@@ -18,8 +18,10 @@ const LinkButton = ({
         target={target || "_self"}
         className={`px-4 py-2 md:py-3 text-primary rounded-xl justify-center items-center gap-2 inline-flex ${buttonTypeClassName} ${className}`}
     >
-        <span className="text-center text-base font-medium leading-normal">
-            {title}
+        <span className="text-center text-base font-medium leading-normal inline-flex overflow-hidden">
+            <span>
+                {title}
+            </span>
         </span>
         {
             showArrow && <span className=''>
