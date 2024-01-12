@@ -1,5 +1,7 @@
+"use client"
+import React, { useLayoutEffect, useRef } from 'react'
 import Link from 'next/link'
-import React from 'react'
+import { gsap } from '@/libs/gsap'
 
 const FooterLink = ({ href, title }) => {
     return <Link
@@ -10,12 +12,50 @@ const FooterLink = ({ href, title }) => {
 }
 
 const Footer = () => {
+    const footerRef = useRef();
+
+    useLayoutEffect(() => {
+        let ctx = gsap.context(() => {
+            const tl5 = gsap.timeline({
+                defaults: {
+                    duration: 1
+                },
+                scrollTrigger: {
+                    trigger: ".container",
+                    start: "top 90%",
+                }
+            });
+
+            tl5.from(".footer-section_title span span", {
+                y: 120,
+                ease: "power2.out",
+                stagger: 0.1,
+            });
+        }, footerRef);
+
+        return () => ctx.revert();
+    }, [])
+
     return (
-        <footer className='relative bg-white'>
+        <footer ref={footerRef} className='relative bg-white'>
             <div className='container px-4 lg:px-0 xl:px-8 2xl:px-0 mx-auto pt-[7rem] md:pt-[7.5rem] pb-[7.5rem]'>
                 <div className='w-full md:w-7/12 lg:w-6/12 xl:w-6/12 2xl:w-5/12'>
-                    <p className='text-primary text-5xl md:text-6xl lg:text-7xl xl:text-[5.5rem] font-bold'>
-                        Get in <span className='text-secondary'>touch</span> with us
+                    <p className='footer-section_title text-primary text-5xl md:text-6xl lg:text-7xl xl:text-[5.5rem] font-bold'>
+                        <span className='inline-flex overflow-hidden'>
+                            <span>Get</span>&nbsp;
+                        </span>
+                        <span className='inline-flex overflow-hidden'>
+                            <span>in</span>&nbsp;
+                        </span>
+                        <span className='inline-flex overflow-hidden'>
+                            <span className='text-secondary'>touch</span>&nbsp;
+                        </span>
+                        <span className='inline-flex overflow-hidden'>
+                            <span>with</span>&nbsp;
+                        </span>
+                        <span className='inline-flex overflow-hidden'>
+                            <span>us</span>&nbsp;
+                        </span>
                     </p>
                 </div>
                 <div className=' pt-[3.688rem] md:pt-6 flex flex-wrap justify-between items-end'>

@@ -48,15 +48,58 @@ const AboutSection = () => {
                 scrollTrigger: {
                     trigger: ".container",
                     start: "top 85%",
-                    
+
                 }
             });
 
-            tl2.from("p span span", {
+            tl2.from(aboutRef.current, {
+                y: 30,
+                duration: .67,
+                ease: "power2.out",
+                borderTopLeftRadius: "50%",
+                borderTopRightRadius: "50%",
+                zIndex: 1
+            });
+
+            tl2.to("canvas", {
+                zIndex: -999,
+                visibility: "hidden"
+            }, "<");
+
+
+
+            tl2.from(".tag span span", {
                 y: 25,
                 ease: "power2.out",
                 stagger: 0.1,
+            }, "<");
+
+
+            // another section
+            const tl3 = gsap.timeline({
+                defaults: {
+                    duration: 1
+                },
+                scrollTrigger: {
+                    trigger: ".benefit-section",
+                    start: "top 85%",
+
+                }
             });
+
+            tl3.from(".benefit-section_title span span", {
+                y: 120,
+                ease: "power2.out",
+                stagger: 0.1,
+            });
+
+            tl3.from(".benefit-section_list li", {
+                y: 100,
+                ease: "power2.out",
+                stagger: 0.1,
+            }, "<10%");
+
+            
         }, aboutRef);
 
         return () => ctx.revert();
@@ -65,8 +108,9 @@ const AboutSection = () => {
 
     return (
         <section ref={aboutRef} id="about" className={`relative bg-primary pt-[7.5rem]`}>
+            <canvas className="absolute top-0 left-0 bg-white w-full h-full"></canvas>
             <div className='container px-4 lg:px-0 xl:px-8 2xl:px-0 mx-auto pb-[5rem] lg:pb-[8.938rem]'>
-                <p className='text-base font-semibold text-secondary'>
+                <p className='tag text-base font-semibold text-secondary'>
                     <span className='inline-flex overflow-hidden'>
                         <span>SOME</span>&nbsp;
                     </span>
@@ -120,7 +164,7 @@ const AboutSection = () => {
                 </div>
             </div>
 
-            <div className='relative '>
+            <div className='relative benefit-section'>
                 <div className='container px-4 lg:px-0 xl:px-8 2xl:px-0 mx-auto pt-[5rem] lg:pt-[7.25rem]'>
                     <p className='w-full md:w-10/12 lg:w-9/12 text-xl font-medium text-white leading-relaxed pb-[5.5rem]'>
                         <span className='text-secondary'>Entrova is all about making it easy to handle global teams. We know
@@ -131,9 +175,35 @@ const AboutSection = () => {
 
                     <div className='relative grid grid-cols-1 lg:grid-cols-2 gap-x-6'>
                         <div className='flex flex-col justify-between'>
-                            <p className='w-full md:w-9/12 lg:w-full text-white font-bold text-[2.625rem] leading-[56px]'>
-                                Enjoy the benefits of consolidating everything
-                                into <span className='text-secondary'>one platform</span>
+                            <p className='benefit-section_title w-full md:w-8/12 lg:w-full text-white font-bold text-[2.625rem] leading-[56px]'>
+                                <span className='inline-flex overflow-hidden'>
+                                    <span>Enjoy</span>&nbsp;
+                                </span>
+                                <span className='inline-flex overflow-hidden'>
+                                    <span>the</span>&nbsp;
+                                </span>
+                                <span className='inline-flex overflow-hidden'>
+                                    <span>benefits</span>&nbsp;
+                                </span>
+                                <span className='inline-flex overflow-hidden'>
+                                    <span>of</span>&nbsp;
+                                </span>
+                                <span className='inline-flex overflow-hidden'>
+                                    <span>consolidating</span>&nbsp;
+                                </span>
+                                <span className='inline-flex overflow-hidden'>
+                                    <span>everything</span>&nbsp;
+                                </span>
+                                <span className='inline-flex overflow-hidden'>
+                                    <span>into</span>&nbsp;
+                                </span>
+                                <span className='inline-flex overflow-hidden'>
+                                    <span className='text-secondary'>one</span>&nbsp;
+                                </span>
+                                
+                                <span className='inline-flex overflow-hidden'>
+                                    <span className='text-secondary'>platform</span>
+                                </span>
                             </p>
 
                             {/* Mobile only */}
@@ -143,7 +213,7 @@ const AboutSection = () => {
                         </div>
 
                         <div className='mt-[4.25rem] lg:mt-0 pb-[7.125rem]'>
-                            <ul className='flex flex-col gap-y-6'>
+                            <ul className='benefit-section_list flex flex-col gap-y-6'>
                                 <BenefitListItem
                                     title={"Hire and onboard employees and contracts from anywhere"}
                                     description={`Allow us to hire staff on your behalf, facilitating rapid onboarding in
@@ -180,7 +250,6 @@ const AboutSection = () => {
                     <Image src={Dashboard2Image} alt='Dashboard' className='w-auto' />
                 </div>
             </div>
-
         </section>
     )
 }
