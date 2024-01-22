@@ -61,8 +61,8 @@ const Footer = () => {
                 <div className=' pt-[3.688rem] md:pt-6 flex flex-wrap justify-between items-end'>
                     <div className='w-10/12 md:w-6/12 lg:w-5/12'>
                         <p className='text-xl font-medium flex flex-col'>
-                            <span>Send a mail to <FooterLink href={"mailto:contact@entrova.co"} title={"contact@entrova.co"} /></span>
-                            <span> or call <FooterLink href={"tel:00000000000"} title={"00000000000"} /></span>
+                            <span>Send a mail to <FooterLink href={"mailto:info@entrova.co"} title={"info@entrova.co"} /></span>
+                            <span> or call <FooterLink href={"tel:+447498742973"} title={"+447498742973"} /></span>
                         </p>
                     </div>
                     <div className='mt-[29px] md:mt-0 w-full md:flex-1 flex flex-col md:flex-row flex-start md:justify-end md:items-center md:gap-6'>
