@@ -1,11 +1,11 @@
 "use client"
-import React, { useLayoutEffect, useRef } from 'react'
-import Image from 'next/image'
-import PeopleImage from "../../../../public/images/webp/people.webp"
-import EmployeeImage from "../../../../public/images/webp/employee.webp"
-import TeamDashboardImage from "../../../../public/images/webp/team-dashboard.webp"
-import TeamDashboardImageMobile from "../../../../public/images/webp/team-dashboard-mobile.webp"
 import { gsap } from '@/libs/gsap'
+import Image from 'next/image'
+import { useLayoutEffect, useRef } from 'react'
+import EmployeeImage from "../../../../public/images/webp/employee.webp"
+import PeopleImage from "../../../../public/images/webp/people.webp"
+import TeamDashboardImageMobile from "../../../../public/images/webp/team-dashboard-mobile.webp"
+import TeamDashboardImage from "../../../../public/images/webp/team-dashboard.webp"
 
 const WorkforceSection = () => {
     const workRef = useRef();

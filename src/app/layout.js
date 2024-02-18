@@ -1,7 +1,7 @@
-import { Inter } from 'next/font/google'
 import '@/styles/globals.css'
+import { Albert_Sans } from 'next/font/google'
 
-const inter = Inter({
+const inter = Albert_Sans({
     variable: "--font-inter",
     subsets: ['latin']
 })

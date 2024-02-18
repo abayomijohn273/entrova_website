@@ -1,8 +1,7 @@
+import LinkButton from '@/components/elements/linkButton'
 import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
 import Logo from "../../../../public/images/svg/logo.svg"
-import LinkButton from '@/components/elements/linkButton'
 
 const Header = () => {
     return (
@@ -19,7 +18,7 @@ const Header = () => {
                     <div className='flex flex-1 justify-end'>
                         <div className={`flex items-center space-x-4`}>
                             <div className='hidden md:block'>
-                                <LinkButton className="px-8" title={"Get Started"} />
+                                <LinkButton className="px-8" title={"Book A Demo"} />
                             </div>
                             <div className=''>
                                 <LinkButton title={"Log In"} buttonType='' showArrow />
