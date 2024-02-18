@@ -89,72 +89,75 @@ const TopSection = () => {
 
                         <h1 className='mt-3 font-bold text-primary text-center text-[2rem] md:text-5xl md:leading-tight lg:text-6xl lg:leading-tight'>
                             <span className='inline-flex overflow-hidden'>
-                                <span>Simplifying</span>&nbsp;
+                                <span>Helping</span>&nbsp;
                             </span>
                             <span className='inline-flex overflow-hidden'>
-                                <span>global</span>&nbsp;
-                            </span>
-                            <span className='inline-flex overflow-hidden'>
-                                <span>workforce</span>&nbsp;
-                            </span>
-                            <span className='inline-flex overflow-hidden'>
-                                <span>management</span>
-                            </span>
-                        </h1>
-
-                        <p className='w-11/12 md:w-9/12 lg:w-10/12 mx-auto mt-5 md:mt-4 text-base text-center font-medium leading-7 text-textColor'>
-                            <span className='inline-flex overflow-hidden'>
-                                <span>Entrova</span>&nbsp;
-                            </span>
-                            <span className='inline-flex overflow-hidden'>
-                                <span>is</span>&nbsp;
-                            </span>
-                            <span className='inline-flex overflow-hidden'>
-                                <span>an</span>&nbsp;
-                            </span>  <span className='inline-flex overflow-hidden'>
-                                <span>all-inclusive</span>&nbsp;
-                            </span>
-                            <span className='inline-flex overflow-hidden'>
-                                <span>platform</span>&nbsp;
-                            </span>
-                            <span className='inline-flex overflow-hidden'>
-                                <span>for</span>&nbsp;
-                            </span>
-                            <span className='inline-flex overflow-hidden'>
-                                <span>managing</span>&nbsp;
-                            </span>
-                            <span className='inline-flex overflow-hidden'>
-                                <span>payroll,</span>&nbsp;
-                            </span>
-                            <span className='inline-flex overflow-hidden'>
-                                <span>taxes,</span>&nbsp;
-                            </span>
-                            <span className='inline-flex overflow-hidden'>
-                                <span>social contributions,</span>&nbsp;
+                                <span>Companies</span>&nbsp;
                             </span>
                             <span className='inline-flex overflow-hidden'>
                                 <span>and</span>&nbsp;
                             </span>
                             <span className='inline-flex overflow-hidden'>
-                                <span>local</span>&nbsp;
+                                <span>Workers</span>&nbsp;
                             </span>
                             <span className='inline-flex overflow-hidden'>
-                                <span>insurance</span>&nbsp;
+                                <span>Go</span>&nbsp;
                             </span>
                             <span className='inline-flex overflow-hidden'>
-                                <span>policies</span>&nbsp;
+                                <span>International</span>
+                            </span>
+                        </h1>
+
+                        <p className='w-11/12 md:w-9/12 lg:w-10/12 mx-auto mt-5 md:mt-4 text-base text-center font-medium leading-7 text-textColor'>
+                            <span className='inline-flex overflow-hidden'>
+                                <span>A</span>&nbsp;
                             </span>
                             <span className='inline-flex overflow-hidden'>
+                                <span>comprehensive</span>&nbsp;
+                            </span>
+                            <span className='inline-flex overflow-hidden'>
+                                <span>solution</span>&nbsp;
+                            </span>  <span className='inline-flex overflow-hidden'>
                                 <span>for</span>&nbsp;
-                            </span>
-                            <span className='inline-flex overflow-hidden'>
-                                <span>your</span>&nbsp;
                             </span>
                             <span className='inline-flex overflow-hidden'>
                                 <span>global</span>&nbsp;
                             </span>
                             <span className='inline-flex overflow-hidden'>
-                                <span>teams.</span>&nbsp;
+                                <span>expansion:</span>&nbsp;
+                            </span>
+                            <span className='inline-flex overflow-hidden'>
+                                <span>Compliant</span>&nbsp;
+                            </span>
+                            <span className='inline-flex overflow-hidden'>
+                                <span>hiring</span>&nbsp;
+                            </span>
+                            <span className='inline-flex overflow-hidden'>
+                                <span>and</span>&nbsp;
+                            </span>
+                            <span className='inline-flex overflow-hidden'>
+                                <span>payments</span>&nbsp;
+                            </span>
+                            <span className='inline-flex overflow-hidden'>
+                                <span>in</span>&nbsp;
+                            </span>
+                            <span className='inline-flex overflow-hidden'>
+                                <span>120+</span>&nbsp;
+                            </span>
+                            <span className='inline-flex overflow-hidden'>
+                                <span>countries,</span>&nbsp;
+                            </span>
+                            <span className='inline-flex overflow-hidden'>
+                                <span>plus</span>&nbsp;
+                            </span>
+                            <span className='inline-flex overflow-hidden'>
+                                <span>contractor</span>&nbsp;
+                            </span>
+                            <span className='inline-flex overflow-hidden'>
+                                <span>growth</span>&nbsp;
+                            </span>
+                            <span className='inline-flex overflow-hidden'>
+                                <span> products.</span>&nbsp;
                             </span>
                         </p>
 

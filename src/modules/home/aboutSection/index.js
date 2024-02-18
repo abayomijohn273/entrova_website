@@ -1,11 +1,11 @@
 "use client"
-import Image from 'next/image'
-import React, { useLayoutEffect, useRef } from 'react'
-import OfficeImage from "../../../../public/images/webp/office.webp"
-import ExecutiveImage from "../../../../public/images/webp/executive.webp"
-import ExecutiveImageMobile from "../../../../public/images/webp/executive-mobile.webp"
-import Dashboard2Image from "../../../../public/images/webp/dashboard-2.webp"
 import { gsap } from '@/libs/gsap'
+import Image from 'next/image'
+import { useLayoutEffect, useRef } from 'react'
+import Dashboard2Image from "../../../../public/images/webp/dashboard-2.webp"
+import ExecutiveImageMobile from "../../../../public/images/webp/executive-mobile.webp"
+import ExecutiveImage from "../../../../public/images/webp/executive.webp"
+import OfficeImage from "../../../../public/images/webp/office.webp"
 
 const InsightCard = ({
     value,
@@ -15,7 +15,7 @@ const InsightCard = ({
         <h3 className='font-bold text-[3.5rem] md:text-[4rem] lg:text-[5rem] xl:text-[5.5rem]'>
             {value}
         </h3>
-        <p className=''>
+        <p className='text-secondary'>
             {text}
 
         </p>
@@ -110,38 +110,38 @@ const AboutSection = () => {
         <section ref={aboutRef} id="about" className={`relative bg-primary pt-[7.5rem]`}>
             <canvas className="absolute top-0 left-0 bg-white w-full h-full"></canvas>
             <div className='container px-4 lg:px-0 xl:px-8 2xl:px-0 mx-auto pb-[5rem] lg:pb-[8.938rem]'>
-                <p className='tag text-base font-semibold text-secondary'>
+                <p className='tag text-base font-semibold text-secondary uppercase'>
                     <span className='inline-flex overflow-hidden'>
-                        <span>SOME</span>&nbsp;
+                        <span>We</span>&nbsp;
                     </span>
                     <span className='inline-flex overflow-hidden'>
-                        <span>KEY</span>&nbsp;
+                        <span>are</span>&nbsp;
                     </span>
                     <span className='inline-flex overflow-hidden'>
-                        <span>INSIGHTS</span>&nbsp;
+                        <span>Growing</span>&nbsp;
+                    </span>
+                    <span className='inline-flex overflow-hidden'>
+                        <span>Fast</span>&nbsp;
                     </span>
                 </p>
 
                 <div className='mt-[4rem] md:mt-[2.5rem] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-10'>
                     <InsightCard
-                        value={"99%"}
+                        value={"350"}
                         text={<>
-                            Executives report a positive return on digital
-                            investments. <span className='text-secondary underline underline-offset-4'>(KPMG)</span>
+                            High Growth Companies
                         </>}
                     />
                     <InsightCard
-                        value={"81%"}
+                        value={"12,000"}
                         text={<>
-                            of companies that pursue talent mobilisation experience revenue growth or surpass
-                            targets. <span className='text-secondary underline underline-offset-4'>(Finances Online)</span>
+                           International Employees
                         </>}
                     />
                     <InsightCard
-                        value={"1/3"}
+                        value={"6,500"}
                         text={<>
-                            More than two-thirds of large organizations track metrics like time to hire,
-                            source of hire, and offer acceptance rates.
+                           Contractors
                         </>}
                     />
                 </div>
