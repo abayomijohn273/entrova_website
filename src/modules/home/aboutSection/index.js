@@ -15,7 +15,7 @@ const InsightCard = ({
         <h3 className='font-bold text-[3.5rem] md:text-[4rem] lg:text-[5rem] xl:text-[5.5rem]'>
             {value}
         </h3>
-        <p className='text-secondary'>
+        <p className='text-secondary text-xl xl:text-2xl'>
             {text}
 
         </p>
