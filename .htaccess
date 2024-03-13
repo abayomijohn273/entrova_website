@@ -1,0 +1,4 @@
+Options +FollowSymLinks 
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^entrova.co [NC] 
+RewriteRule ^(.*)$ http://www.entrova.co/$1 [L,R=301]
