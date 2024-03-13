@@ -16,7 +16,6 @@ const TopSection = () => {
                         <h1 className='mt-3 font-bold text-primary text-[2rem] md:text-5xl md:leading-tight lg:text-6xl lg:leading-tight'>
                             Facilitate Global Payroll Management
                         </h1>
-
                         <p className='w-11/12 md:w-9/12 lg:w-10/12 mt-5 md:mt-4 text-base font-medium leading-6 text-textColor'>
                             Entrova offers a secure and compliant global payroll solution to streamline your payroll
                             procedures across diverse international locations.
