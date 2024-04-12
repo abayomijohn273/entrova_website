@@ -168,7 +168,7 @@ const TopSection = () => {
                                 </svg>
                             </div>
                             <div className='md:mt-3'>
-                                <LinkButton title={"Book A Demo"} href={"/"} className={"px-8"} showArrow />
+                                <LinkButton title={"Book A Demo"} href={"/book-a-demo"} className={"px-8"} showArrow />
                             </div>
                             <div className='hidden md:block'>
                                 <svg width="47" height="45" viewBox="0 0 47 45" fill="none" xmlns="http://www.w3.org/2000/svg">

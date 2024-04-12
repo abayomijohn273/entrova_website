@@ -34,7 +34,7 @@ const BenefitsSection = () => {
                         </p>
 
                         <div className='mt-8'>
-                            <LinkButton href={"/"} title={"Book A Demo"} buttonType='secondary' className={'bg-transparent'} showArrow={true} />
+                            <LinkButton href={"/book-a-demo"} title={"Book A Demo"} buttonType='secondary' className={'bg-transparent'} showArrow={true} />
                         </div>
                     </div>
                     <div className='mt-[4.25rem] lg:mt-0 pb-[1.125rem]'>

@@ -24,7 +24,7 @@ const TopSection = () => {
 
                         <div className='button-container mt-[2.5rem] md:mt-[2.125rem] flex justify-start gap-3'>
                             <div className=''>
-                                <LinkButton title={"Book A Demo"} href={"/"} className={"px-8"} showArrow />
+                                <LinkButton title={"Book A Demo"} href={"/book-a-demo"} className={"px-8"} showArrow />
                             </div>
                         </div>
                     </div>

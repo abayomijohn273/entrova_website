@@ -25,7 +25,7 @@ const HireAnywhereSection = () => {
                     <div className='mt-8'>
                         <LinkButton
                             title={"Book A Demo"}
-                            href={"/"}
+                            href={"/book-a-demo"}
                             showArrow={false}
                             className={"px-8"}
                         />

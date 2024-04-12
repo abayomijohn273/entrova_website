@@ -36,7 +36,7 @@ const Header = () => {
                     <div className='flex flex-1 justify-end'>
                         <div className={`flex items-center space-x-4`}>
                             <div className=''>
-                                <LinkButton className="px-4 lg:px-8" title={"Book A Demo"} />
+                                <LinkButton className="px-4 lg:px-8" title={"Book A Demo"} href={"/book-a-demo"} />
                             </div>
                             <div className='hidden lg:block'>
                                 <LinkButton title={"Log In"} buttonType='' showArrow />

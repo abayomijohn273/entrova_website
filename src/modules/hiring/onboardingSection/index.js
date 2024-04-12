@@ -26,7 +26,7 @@ const OnboardingSection = () => {
 
                         <div className='button-container mt-[2.5rem] md:mt-[2.125rem] flex justify-start gap-3'>
                             <div className=''>
-                                <LinkButton className="!bg-[#EFF6FF]" buttonType='secondary' title={"Book A Demo"} href={"/"} showArrow />
+                                <LinkButton className="!bg-[#EFF6FF]" buttonType='secondary' title={"Book A Demo"} href={"/book-a-demo"} showArrow />
                             </div>
                         </div>
                     </div>
