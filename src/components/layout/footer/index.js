@@ -68,6 +68,11 @@ const Footer = () => {
                     <div className='mt-[29px] md:mt-0 w-full md:flex-1 flex flex-col md:flex-row flex-start md:justify-end md:items-center md:gap-6'>
                         <p className='text-[#737373] text-sm font-medium'>&copy;2024 Entrova Limited</p>
                         <div className='mt-3 md:mt-0 flex items-center gap-x-4 text-sm font-medium gap-6'>
+                            <Link
+                                href={"/terms-of-service"}
+                                className='text-primary hover:text-[#7ea446] transition-all ease-in-out duration-150'>
+                                Terms of Service
+                            </Link>
                             <FooterLink href={"https://www.linkedin.com/company/entrova/"} title={"LinkedIn"} />
                             {/* <FooterLink href={"https://www.twitter.com"} title={"X"} /> */}
                             <FooterLink href={"https://www.instagram.com/flit.inc/"} title={"Instagram"} />
