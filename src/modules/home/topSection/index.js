@@ -83,7 +83,7 @@ const TopSection = () => {
                     <div className='relative'>
                         <div className="flex justify-center items-center">
                             <p className="px-2.5 py-[0.625rem] bg-white rounded-[32px] text-secondary text-xs font-medium leading-3 tracking-tight">
-                                The is future of global workforce management
+                                The future of global workforce management
                             </p>
                         </div>
 
