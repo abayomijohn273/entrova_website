@@ -1,20 +1,89 @@
 {
   "pages": {
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+    "/_not-found": [
+      "static/chunks/webpack-7f2099c2ce51943d.js",
+      "static/chunks/fd9d1056-2d36527d6a4e798d.js",
+      "static/chunks/938-ed0a8c3efc223343.js",
+      "static/chunks/main-app-ac9acfa0442fd392.js",
+      "static/chunks/app/_not-found-3deccac3c9787212.js"
     ],
     "/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
+      "static/chunks/webpack-7f2099c2ce51943d.js",
+      "static/chunks/fd9d1056-2d36527d6a4e798d.js",
+      "static/chunks/938-ed0a8c3efc223343.js",
+      "static/chunks/main-app-ac9acfa0442fd392.js",
+      "static/css/610d300ef14a73a0.css",
+      "static/chunks/app/layout-80bb51a3c7f532f6.js"
+    ],
+    "/api/page": [
+      "static/chunks/webpack-7f2099c2ce51943d.js",
+      "static/chunks/fd9d1056-2d36527d6a4e798d.js",
+      "static/chunks/938-ed0a8c3efc223343.js",
+      "static/chunks/main-app-ac9acfa0442fd392.js",
+      "static/chunks/c15bf2b0-226164462fb53e09.js",
+      "static/chunks/632-04394010ea6c80e0.js",
+      "static/chunks/app/api/page-5e9c1048b0c723bc.js"
+    ],
+    "/contractors/page": [
+      "static/chunks/webpack-7f2099c2ce51943d.js",
+      "static/chunks/fd9d1056-2d36527d6a4e798d.js",
+      "static/chunks/938-ed0a8c3efc223343.js",
+      "static/chunks/main-app-ac9acfa0442fd392.js",
+      "static/chunks/c15bf2b0-226164462fb53e09.js",
+      "static/chunks/632-04394010ea6c80e0.js",
+      "static/chunks/app/contractors/page-246f625f5cc8fa65.js"
+    ],
+    "/employees/page": [
+      "static/chunks/webpack-7f2099c2ce51943d.js",
+      "static/chunks/fd9d1056-2d36527d6a4e798d.js",
+      "static/chunks/938-ed0a8c3efc223343.js",
+      "static/chunks/main-app-ac9acfa0442fd392.js",
+      "static/chunks/c15bf2b0-226164462fb53e09.js",
+      "static/chunks/632-04394010ea6c80e0.js",
+      "static/chunks/app/employees/page-e8964e1fadb37075.js"
+    ],
+    "/book-a-demo/page": [
+      "static/chunks/webpack-7f2099c2ce51943d.js",
+      "static/chunks/fd9d1056-2d36527d6a4e798d.js",
+      "static/chunks/938-ed0a8c3efc223343.js",
+      "static/chunks/main-app-ac9acfa0442fd392.js",
+      "static/chunks/app/book-a-demo/page-868f473d38bdfb66.js"
+    ],
+    "/integrations/page": [
+      "static/chunks/webpack-7f2099c2ce51943d.js",
+      "static/chunks/fd9d1056-2d36527d6a4e798d.js",
+      "static/chunks/938-ed0a8c3efc223343.js",
+      "static/chunks/main-app-ac9acfa0442fd392.js",
+      "static/chunks/c15bf2b0-226164462fb53e09.js",
+      "static/chunks/632-04394010ea6c80e0.js",
+      "static/chunks/app/integrations/page-b3dc16234e36af17.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-7f2099c2ce51943d.js",
+      "static/chunks/fd9d1056-2d36527d6a4e798d.js",
+      "static/chunks/938-ed0a8c3efc223343.js",
+      "static/chunks/main-app-ac9acfa0442fd392.js",
+      "static/chunks/c15bf2b0-226164462fb53e09.js",
+      "static/chunks/632-04394010ea6c80e0.js",
+      "static/chunks/app/page-20e372cafc1fe36c.js"
     ],
     "/payroll/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/payroll/page.js"
+      "static/chunks/webpack-7f2099c2ce51943d.js",
+      "static/chunks/fd9d1056-2d36527d6a4e798d.js",
+      "static/chunks/938-ed0a8c3efc223343.js",
+      "static/chunks/main-app-ac9acfa0442fd392.js",
+      "static/chunks/c15bf2b0-226164462fb53e09.js",
+      "static/chunks/632-04394010ea6c80e0.js",
+      "static/chunks/app/payroll/page-68294d37e7f8db51.js"
+    ],
+    "/terms-of-service/page": [
+      "static/chunks/webpack-7f2099c2ce51943d.js",
+      "static/chunks/fd9d1056-2d36527d6a4e798d.js",
+      "static/chunks/938-ed0a8c3efc223343.js",
+      "static/chunks/main-app-ac9acfa0442fd392.js",
+      "static/chunks/c15bf2b0-226164462fb53e09.js",
+      "static/chunks/632-04394010ea6c80e0.js",
+      "static/chunks/app/terms-of-service/page-a623788532190bf6.js"
     ]
   }
 }
