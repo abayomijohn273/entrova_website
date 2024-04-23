@@ -3,7 +3,7 @@ name: Deploy Entrova to FTP
 on:
   push:
     branches:
-      - main  # Adjust the branch name as needed
+      - main-v2  # Adjust the branch name as needed
 
 jobs:
   deploy:
