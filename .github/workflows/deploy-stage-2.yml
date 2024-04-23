@@ -1,0 +1,35 @@
+name: Deploy Entrova.co to FTP
+
+on:
+  push:
+    branches:
+      - main-v2  # Adjust the branch name as needed
+
+jobs:
+  deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🚚 Checkout code
+        uses: actions/checkout@v4
+
+      - name: 📂 Set up Node.js
+        uses: actions/checkout@v4
+        with:
+          node-version: 16.20.2  # Use the desired Node.js version
+
+      - name: 🔨 Install dependencies and build Next.js app
+        run: |
+          npm install  # Install project dependencies
+          npm run build  # Build Next.js app
+
+      - name: 🚀 Deploy via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftp
+          port: 21
+          server-dir: entrova_co/
