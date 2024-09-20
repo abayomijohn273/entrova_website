@@ -22,15 +22,6 @@
       "static/chunks/main-app-ac9acfa0442fd392.js",
       "static/chunks/app/book-a-demo/page-868f473d38bdfb66.js"
     ],
-    "/contractors/page": [
-      "static/chunks/webpack-7f2099c2ce51943d.js",
-      "static/chunks/fd9d1056-2d36527d6a4e798d.js",
-      "static/chunks/938-ed0a8c3efc223343.js",
-      "static/chunks/main-app-ac9acfa0442fd392.js",
-      "static/chunks/c15bf2b0-226164462fb53e09.js",
-      "static/chunks/632-04394010ea6c80e0.js",
-      "static/chunks/app/contractors/page-246f625f5cc8fa65.js"
-    ],
     "/api/page": [
       "static/chunks/webpack-7f2099c2ce51943d.js",
       "static/chunks/fd9d1056-2d36527d6a4e798d.js",
@@ -48,6 +39,15 @@
       "static/chunks/c15bf2b0-226164462fb53e09.js",
       "static/chunks/632-04394010ea6c80e0.js",
       "static/chunks/app/employees/page-e8964e1fadb37075.js"
+    ],
+    "/contractors/page": [
+      "static/chunks/webpack-7f2099c2ce51943d.js",
+      "static/chunks/fd9d1056-2d36527d6a4e798d.js",
+      "static/chunks/938-ed0a8c3efc223343.js",
+      "static/chunks/main-app-ac9acfa0442fd392.js",
+      "static/chunks/c15bf2b0-226164462fb53e09.js",
+      "static/chunks/632-04394010ea6c80e0.js",
+      "static/chunks/app/contractors/page-246f625f5cc8fa65.js"
     ],
     "/integrations/page": [
       "static/chunks/webpack-7f2099c2ce51943d.js",
