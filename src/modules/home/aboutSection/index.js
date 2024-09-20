@@ -115,31 +115,34 @@ const AboutSection = () => {
                         <span>We</span>&nbsp;
                     </span>
                     <span className='inline-flex overflow-hidden'>
-                        <span>are</span>&nbsp;
+                        <span>Are</span>&nbsp;
                     </span>
                     <span className='inline-flex overflow-hidden'>
-                        <span>Growing</span>&nbsp;
+                        <span>Testing</span>&nbsp;
                     </span>
                     <span className='inline-flex overflow-hidden'>
-                        <span>Fast</span>&nbsp;
+                        <span>Our</span>&nbsp;
+                    </span>
+                    <span className='inline-flex overflow-hidden'>
+                        <span>Model</span>&nbsp;
                     </span>
                 </p>
 
                 <div className='mt-[4rem] md:mt-[2.5rem] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-10'>
                     <InsightCard
-                        value={"350"}
+                        value={"50"}
                         text={<>
                             High Growth Companies
                         </>}
                     />
                     <InsightCard
-                        value={"12,000"}
+                        value={"450"}
                         text={<>
                            International Employees
                         </>}
                     />
                     <InsightCard
-                        value={"6,500"}
+                        value={"2,500"}
                         text={<>
                            Contractors
                         </>}
