@@ -72,7 +72,7 @@ const TopSection = () => {
 
         return () => ctx.revert();
     }, [])
-
+ 
     return (
         <section ref={ref} className={`relative bg-[#EFF6FF]`}>
             <div className='container px-4 lg:px-0 xl:px-8 2xl:px-0 pt-[5.563rem] md:pt-[6.25rem]  mx-auto'>
