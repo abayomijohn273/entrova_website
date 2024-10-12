@@ -75,7 +75,7 @@ const Footer = () => {
                             </Link>
                             <FooterLink href={"https://www.linkedin.com/company/entrova/"} title={"LinkedIn"} />
                             {/* <FooterLink href={"https://www.twitter.com"} title={"X"} /> */}
-                            <FooterLink href={"https://www.instagram.com/flit.inc/"} title={"Instagram"} />
+                            <FooterLink href={"https://www.instagram.com/entrovahq/"} title={"Instagram"} />
                         </div>
                     </div>
                 </div>
