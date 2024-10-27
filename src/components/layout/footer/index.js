@@ -62,7 +62,7 @@ const Footer = () => {
                     <div className='w-10/12 md:w-6/12 lg:w-5/12'>
                         <p className='text-xl font-medium flex flex-col'>
                             <span>Send a mail to <FooterLink href={"mailto:info@entrova.co"} title={"info@entrova.co"} /></span>
-                            <span> or call <FooterLink href={"tel:+447453531841"} title={"+447453531841"} /> | <FooterLink href={"tel:+12027738695"} title={"+12027738695"} /></span>
+                            <span> or call <FooterLink href={"tel:+12027738695"} title={"+1 (202) 773-8695"} /> | <FooterLink href={"tel:+12027738695"} title={"+12027738695"} /></span>
                         </p>
                     </div>
                     <div className='mt-[29px] md:mt-0 w-full md:flex-1 flex flex-col md:flex-row flex-start md:justify-end md:items-center md:gap-6'>
