@@ -6,7 +6,7 @@ const BookADemo = () => {
         title="Book a demo"
         width='100%'
         height='900px'
-        src='https://utiva.zohobookings.com/portal-embed#/4585315000000562006'
+        src='https://utiva.zohobookings.com/portal-embed#/entrova-demo'
         frameborder='0'
         allowfullscreen=''
       > </iframe>
