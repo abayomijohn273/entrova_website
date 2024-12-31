@@ -89,22 +89,19 @@ const TopSection = () => {
 
                         <h1 className='mt-3 font-bold text-primary text-center text-[2rem] md:text-5xl md:leading-tight lg:text-6xl lg:leading-tight'>
                             <span className='inline-flex overflow-hidden'>
-                                <span>Helping</span>&nbsp;
+                                <span>Global</span>&nbsp;
                             </span>
                             <span className='inline-flex overflow-hidden'>
-                                <span>Companies</span>&nbsp;
+                                <span>Expansion,</span>&nbsp;
                             </span>
                             <span className='inline-flex overflow-hidden'>
-                                <span>and</span>&nbsp;
+                                <span>Simplified</span>&nbsp;
                             </span>
                             <span className='inline-flex overflow-hidden'>
-                                <span>Workers</span>&nbsp;
+                                <span>with</span>&nbsp;
                             </span>
                             <span className='inline-flex overflow-hidden'>
-                                <span>Go</span>&nbsp;
-                            </span>
-                            <span className='inline-flex overflow-hidden'>
-                                <span>International</span>
+                                <span>AI</span>&nbsp;
                             </span>
                         </h1>
 

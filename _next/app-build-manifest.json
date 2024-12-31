@@ -15,31 +15,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/employees/page.js"
-    ],
-    "/contractors/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/contractors/page.js"
-    ],
-    "/integrations/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/integrations/page.js"
-    ],
-    "/payroll/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/payroll/page.js"
-    ],
-    "/api/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/api/page.js"
-    ],
-    "/book-a-demo/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/book-a-demo/page.js"
     ]
   }
 }
