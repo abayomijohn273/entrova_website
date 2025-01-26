@@ -1,17 +1,10 @@
 {
-  "/_not-found": "app/_not-found.js",
-  "/api/page": "app/api/page.js",
-  "/apple-icon.png/route": "app/apple-icon.png/route.js",
-  "/book-a-demo/page": "app/book-a-demo/page.js",
-  "/contractors/page": "app/contractors/page.js",
-  "/employees/page": "app/employees/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/icon1.png/route": "app/icon1.png/route.js",
-  "/icon2.png/route": "app/icon2.png/route.js",
-  "/icon3.png/route": "app/icon3.png/route.js",
-  "/integrations/page": "app/integrations/page.js",
-  "/icon4.png/route": "app/icon4.png/route.js",
   "/page": "app/page.js",
-  "/payroll/page": "app/payroll/page.js",
-  "/terms-of-service/page": "app/terms-of-service/page.js"
+  "/contractors/page": "app/contractors/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/employees/page": "app/employees/page.js",
+  "/book-a-demo/page": "app/book-a-demo/page.js",
+  "/api/page": "app/api/page.js",
+  "/integrations/page": "app/integrations/page.js",
+  "/payroll/page": "app/payroll/page.js"
 }
