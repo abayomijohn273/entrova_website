@@ -3,7 +3,7 @@ import LinkButton from '@/components/elements/linkButton'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
-import Logo from "../../../../public/images/svg/logo.svg"
+import Logo from "../../../../public/images/svg/logo.webp"
 import MobileMenu from './mobileMenu'
 
 const NavLink = ({ href, title }) => {
@@ -24,7 +24,7 @@ const Header = () => {
             <header className={`sticky top-0 z-10 w-full overflow-hidden mx-auto bg-white`}>
                 <nav className='container px-4 lg:px-0 xl:px-8 2xl:px-0 mx-auto py-4 md:py-5'>
                     <div className='w-full flex flex-row justify-between items-center'>
-                        <div className=''>
+                        <div className='w-32'>
                             <Link href={"/"}>
                                 <Image src={Logo} alt="entrova" />
                                 <span className='sr-only'>entrova</span>
