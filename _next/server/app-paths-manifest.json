@@ -1,10 +1,9 @@
 {
   "/page": "app/page.js",
-  "/contractors/page": "app/contractors/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/employees/page": "app/employees/page.js",
-  "/book-a-demo/page": "app/book-a-demo/page.js",
-  "/api/page": "app/api/page.js",
+  "/contractors/page": "app/contractors/page.js",
   "/integrations/page": "app/integrations/page.js",
-  "/payroll/page": "app/payroll/page.js"
+  "/payroll/page": "app/payroll/page.js",
+  "/api/page": "app/api/page.js",
+  "/employees/page": "app/employees/page.js"
 }
