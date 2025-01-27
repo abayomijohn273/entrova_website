@@ -1,8 +1,0 @@
-{
-  "/not-found": "app/not-found.js",
-  "/employees/page": "app/employees/page.js",
-  "/contractors/page": "app/contractors/page.js",
-  "/api/page": "app/api/page.js",
-  "/payroll/page": "app/payroll/page.js",
-  "/integrations/page": "app/integrations/page.js"
-}
