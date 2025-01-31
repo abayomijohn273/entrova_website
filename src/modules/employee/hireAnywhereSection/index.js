@@ -15,8 +15,11 @@ const HireAnywhereSection = () => {
                     </h3>
 
                     <p className='w-11/12 md:w-9/12 lg:w-10/12 mt-5 md:mt-4 text-base font-medium leading-6 text-white text-center'>
-                    Hire top talent from anywhere in the world with AI-driven precision, ensuring the right 
-                    fit for every role while unlocking opportunities for underrepresented regions like Africa.
+                        Access unparalleled hiring coverage with our 100+ Deel-owned
+                        entities globally From entity setup to payroll processing,
+                        we manage everything internally, ensuring transparent
+                        pricing, consistent high-quality service, and expanded
+                        on-platform capabilities.
                     </p>
 
                     <div className='mt-8'>

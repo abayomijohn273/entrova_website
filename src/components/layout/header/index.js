@@ -33,6 +33,7 @@ const Header = () => {
 
                         <div className='hidden md:flex w-7/12  justify-center'>
                             <div className={`flex items-center space-x-4 lg:space-x-7`}>
+                                <NavLink title='Hiring' href='/hiring' />
                                 <NavLink title='Employees' href='/employees' />
                                 <NavLink title='Contractors' href='/contractors' />
                                 <NavLink title='Integration' href='/integrations' />

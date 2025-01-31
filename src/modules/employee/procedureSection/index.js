@@ -23,11 +23,11 @@ const ProcedureSection = () => {
                     <div className='w-full lg:w-11/12 xl:w-10/12'>
                         <div className="flex justify-start">
                             <p className="px-2.5 py-[0.625rem] bg-[#EFF6FF] rounded-[32px] text-[#012A36] text-xs font-medium leading-3 tracking-tight">
-                                Hire Talent
+                                Hire Employees
                             </p>
                         </div>
                         <p className='mt-4 w-full md:w-8/12 lg:w-full text-primary font-bold text-[28px] leading-[38px]'>
-                            Solutions for Every Need
+                            Global Compliance Assurance
                         </p>
                         <p className="mt-4 text-base text-[#1E1E1E]">
                             Entrova safeguards your global business, ensuring
@@ -42,16 +42,29 @@ const ProcedureSection = () => {
                     <div className='mt-[4.25rem] lg:mt-0 pb-[1.125rem]'>
                         <ul className='benefit-section_list flex flex-col gap-y-6'>
                             <BenefitListItem
-                                title={"Hire Individuals"}
-                                description={`Fill skill gaps or onboard highly skilled professionals for specific roles.`}
+                                title={"Step 1: Information Sharing"}
+                                description={`Share pertinent details regarding the new employee, encompassing 
+                                    their position, compensation, and whereabouts.`}
                             />
                             <BenefitListItem
-                                title={"Manage Projects"}
-                                description={`From application development to AI-powered prototypes, let us deliver projects on time and on budget.`}
+                                title={"Step 2: Compliance Assurance"}
+                                description={`Entrova crafts an employment agreement aligning with local labor statutes and regulations.`}
                             />
                             <BenefitListItem
-                                title={"End-to-End Hiring"}
-                                description={`Leave it to us to source, onboard, and manage your global team while you focus on growing your business.`}
+                                title={"Step 3: Seamless Integration"}
+                                description={`Your new team member seamlessly transitions into their role as if they were hired locally, 
+                                while we manage all administrative duties.`}
+                            />
+                            <BenefitListItem
+                                title={"Step 4: Payroll Administration"}
+                                description={`Employees receive their compensation in their local currency, 
+                                inclusive of any mandated local benefits.`}
+                            />
+                            <BenefitListItem
+                                title={"Step 5: Continual Assistance"}
+                                description={`Count on Entrova for ongoing support and assistance with any updates or 
+                                modifications, catering to the needs of both your 
+                                organization and your international workforce.`}
                             />
                         </ul>
                     </div>

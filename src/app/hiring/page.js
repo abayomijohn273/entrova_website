@@ -1,8 +1,8 @@
-import Employee from "@/modules/employee"
+import Hiring from '@/modules/hiring'
 
 const Page = () => {
   return (
-    <Employee />
+    <Hiring />
   )
 }
 

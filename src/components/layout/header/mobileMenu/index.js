@@ -7,26 +7,31 @@ const MobileMenu = ({ isOpen, handleClose }) => {
   const data = [
     {
       id: 1,
+      title: "Hiring",
+      url: "/hiring"
+    },
+    {
+      id: 2,
       title: "Employees",
       url: "/employees"
     },
     {
-      id: 2,
+      id: 3,
       title: "Contractors",
       url: "/contractors"
     },
     {
-      id: 3,
+      id: 4,
       title: "Integration",
       url: "/integrations"
     },
     {
-      id: 4,
+      id: 5,
       title: "Payroll",
       url: "/payroll"
     },
     {
-      id: 5,
+      id: 6,
       title: "API",
       url: "/api"
     },

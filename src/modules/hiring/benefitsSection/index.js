@@ -1,5 +1,4 @@
-import Image from 'next/image'
-import HireDashboardImage from "../../../../public/images/webp/hire_dashboard.webp"
+import LinkButton from '@/components/elements/linkButton'
 
 const BenefitListItem = ({ title, description }) => {
     return <li className='flex items-start'>
@@ -15,55 +14,49 @@ const BenefitListItem = ({ title, description }) => {
     </li>
 }
 
-const ProcedureSection = () => {
+const BenefitsSection = () => {
     return (
-        <section className={`relative bg-white`}>
+        <section className={`relative bg-[#F3F4F5]`}>
             <div className='container px-4 lg:px-0 xl:px-8 2xl:px-0 pb-[2rem] pt-[5.563rem] md:py-[6.25rem]  mx-auto'>
                 <div className='relative grid grid-cols-1 lg:grid-cols-2 gap-x-6'>
                     <div className='w-full lg:w-11/12 xl:w-10/12'>
                         <div className="flex justify-start">
                             <p className="px-2.5 py-[0.625rem] bg-[#EFF6FF] rounded-[32px] text-[#012A36] text-xs font-medium leading-3 tracking-tight">
-                                Hire Talent
+                                Get Started
                             </p>
                         </div>
                         <p className='mt-4 w-full md:w-8/12 lg:w-full text-primary font-bold text-[28px] leading-[38px]'>
-                            Solutions for Every Need
+                            Let’s Build Your Global Team Today
                         </p>
                         <p className="mt-4 text-base text-[#1E1E1E]">
-                            Entrova safeguards your global business, ensuring
-                            compliance across numerous countries.
+                            Whether you’re a startup scaling fast or an enterprise exploring new markets,
+                            Entrova makes global hiring simple, secure, and seamless.
                         </p>
 
-                        {/* Desktop */}
-                        <div className='mt-[5rem] hidden lg:block '>
-                            <Image src={HireDashboardImage} alt='Dashboard' className='w-auto' />
+                        <div className='mt-8'>
+                            <LinkButton href={"/book-a-demo"} title={"Book A Demo"} buttonType='secondary' className={'bg-transparent'} showArrow={true} />
                         </div>
                     </div>
                     <div className='mt-[4.25rem] lg:mt-0 pb-[1.125rem]'>
                         <ul className='benefit-section_list flex flex-col gap-y-6'>
                             <BenefitListItem
-                                title={"Hire Individuals"}
-                                description={`Fill skill gaps or onboard highly skilled professionals for specific roles.`}
+                                title={"Talk to Our Hiring Experts"}
+                                description={`We’ll understand your goals, technical needs, and team structure.`}
                             />
                             <BenefitListItem
-                                title={"Manage Projects"}
-                                description={`From application development to AI-powered prototypes, let us deliver projects on time and on budget.`}
+                                title={"Get AI-Matched Talent"}
+                                description={`Our platform matches you with the perfect candidates in under 24 hours.`}
                             />
                             <BenefitListItem
-                                title={"End-to-End Hiring"}
-                                description={`Leave it to us to source, onboard, and manage your global team while you focus on growing your business.`}
+                                title={"Seamless Onboarding"}
+                                description={`Our trial-to-hire system ensures you work with the right fit, risk-free.`}
                             />
                         </ul>
                     </div>
-                </div>
-
-                {/* Mobile */}
-                <div className='mt-[4rem] lg:hidden flex justify-center'>
-                    <Image src={HireDashboardImage} alt='Dashboard' className='w-auto' />
                 </div>
             </div>
         </section>
     )
 }
 
-export default ProcedureSection
+export default BenefitsSection

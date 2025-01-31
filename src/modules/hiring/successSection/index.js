@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import HireDashboardImage from "../../../../public/images/webp/hire_dashboard.webp"
+import ContractorsImage from "../../../../public/images/webp/contractors.webp"
 
 const BenefitListItem = ({ title, description }) => {
     return <li className='flex items-start'>
@@ -15,43 +15,41 @@ const BenefitListItem = ({ title, description }) => {
     </li>
 }
 
-const ProcedureSection = () => {
+const SuccessSection = () => {
     return (
-        <section className={`relative bg-white`}>
+        <section className={`relative bg-[#FAF5FF]`}>
             <div className='container px-4 lg:px-0 xl:px-8 2xl:px-0 pb-[2rem] pt-[5.563rem] md:py-[6.25rem]  mx-auto'>
                 <div className='relative grid grid-cols-1 lg:grid-cols-2 gap-x-6'>
                     <div className='w-full lg:w-11/12 xl:w-10/12'>
                         <div className="flex justify-start">
-                            <p className="px-2.5 py-[0.625rem] bg-[#EFF6FF] rounded-[32px] text-[#012A36] text-xs font-medium leading-3 tracking-tight">
-                                Hire Talent
+                            <p className="text-secondary text-base font-medium leading-3 tracking-tight">
+                                Success Stories
                             </p>
                         </div>
                         <p className='mt-4 w-full md:w-8/12 lg:w-full text-primary font-bold text-[28px] leading-[38px]'>
-                            Solutions for Every Need
-                        </p>
-                        <p className="mt-4 text-base text-[#1E1E1E]">
-                            Entrova safeguards your global business, ensuring
-                            compliance across numerous countries.
+                            Transforming Businesses Across the Globe
                         </p>
 
                         {/* Desktop */}
-                        <div className='mt-[5rem] hidden lg:block '>
-                            <Image src={HireDashboardImage} alt='Dashboard' className='w-auto' />
+                        <div className='mt-[4rem] hidden lg:flex justify-start'>
+                            <Image src={ContractorsImage} alt='Dashboard' className='w-fit' />
                         </div>
                     </div>
-                    <div className='mt-[4.25rem] lg:mt-0 pb-[1.125rem]'>
+                    <div className='mt-[4.25rem] lg:mt-[3.5rem] pb-[1.125rem]'>
                         <ul className='benefit-section_list flex flex-col gap-y-6'>
                             <BenefitListItem
-                                title={"Hire Individuals"}
-                                description={`Fill skill gaps or onboard highly skilled professionals for specific roles.`}
+                                title={"Scaling Engineering Teams for Speed and Innovation"}
+                                description={`A FinTech startup doubled their project delivery speed by hiring a 
+                                    team of software engineers from Entrova in just two weeks.`}
                             />
                             <BenefitListItem
-                                title={"Manage Projects"}
-                                description={`From application development to AI-powered prototypes, let us deliver projects on time and on budget.`}
+                                title={"Breaking Barriers with African Talent"}
+                                description={`A global e-commerce company hired African developers through Entrova, 
+                                    saving 60% on costs while achieving record-breaking user engagement.`}
                             />
                             <BenefitListItem
-                                title={"End-to-End Hiring"}
-                                description={`Leave it to us to source, onboard, and manage your global team while you focus on growing your business.`}
+                                title={"Ensuring Compliance for Global Operations"}
+                                description={`A healthcare SaaS company expanded into three new markets while staying compliant, thanks to Entrova’s legal and payroll solutions.`}
                             />
                         </ul>
                     </div>
@@ -59,11 +57,11 @@ const ProcedureSection = () => {
 
                 {/* Mobile */}
                 <div className='mt-[4rem] lg:hidden flex justify-center'>
-                    <Image src={HireDashboardImage} alt='Dashboard' className='w-auto' />
+                    <Image src={ContractorsImage} alt='Dashboard' className='w-auto' />
                 </div>
             </div>
         </section>
     )
 }
 
-export default ProcedureSection
+export default SuccessSection
