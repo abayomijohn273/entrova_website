@@ -46,7 +46,7 @@ const Header = () => {
                                 <div className=''>
                                     <LinkButton className="px-4 lg:px-8" title={"Book A Demo"} href={"/book-a-demo"} />
                                 </div>
-                                <div className='md:hidden lg:flex'>
+                                <div className='md:hidden xl:flex'>
                                     <LinkButton
                                         title={"Contact Sales"}
                                         buttonType=''
