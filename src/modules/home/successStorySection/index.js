@@ -71,12 +71,12 @@ const SuccessStorySection = () => {
           </Swiper>
         </div>
 
-        <div className='mt-8 xl:mt-4 flex gap-4 justify-end lg:absolute lg:top-1/2  lg:justify-between lg:z-30 lg:w-full'>
-          <button onClick={handlePrev} className='focus:outline-none lg:relative lg:-left-6'>
+        <div className='mt-8 xl:mt-4 flex gap-4 justify-end xl:absolute xl:top-1/2  xl:justify-between xl:z-30 xl:w-full'>
+          <button onClick={handlePrev} className='focus:outline-none xl:relative xl:-left-6'>
             <Image src={ArrowLeft} alt="" />
           </button>
 
-          <button onClick={handleNext} className='focus:outline-none lg:relative lg:right-10'>
+          <button onClick={handleNext} className='focus:outline-none xl:relative xl:right-10'>
             <Image src={ArrowRight} alt="" />
           </button>
         </div>
