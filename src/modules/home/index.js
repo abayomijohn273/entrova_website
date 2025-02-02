@@ -1,14 +1,24 @@
 import MainWrapper from '@/components/layout/mainWrapper'
-import AboutSection from './aboutSection'
+import BenefitsSection from './benefitsSection'
+import GlobalSection from './globalSection'
+import HowSection from './howSection'
+import OurUniqueSection from './ourUniqueSection'
+import SolutionSection from './solutionSection'
+import SuccessStorySection from './successStorySection'
 import TopSection from './topSection'
-import WorkforceSection from './workforceSection'
+import WhySection from './whySection'
 
 const Home = () => {
     return (
         <MainWrapper>
             <TopSection />
-            <AboutSection />
-            <WorkforceSection />
+            <BenefitsSection />
+            <OurUniqueSection />
+            <WhySection />
+            <HowSection />
+            <SolutionSection />
+            <GlobalSection />
+            <SuccessStorySection />
         </MainWrapper>
     )
 }

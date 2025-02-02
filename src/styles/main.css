@@ -1,1 +1,25 @@
- 
+ .bounce-animate:nth-child(1) {
+  animation: bounce-anim 3s infinite alternate ease-out;
+ }
+
+ .bounce-animate:nth-child(2) {
+  animation: bounce-anim 2.5s infinite alternate ease-out;
+ }
+
+ .bounce-animate:nth-child(3) {
+  animation: bounce-anim 2.7s infinite alternate ease-out;
+ }
+
+ .bounce-animate:nth-child(4) {
+  animation: bounce-anim 3.2s infinite alternate ease-out;
+ }
+
+ @keyframes bounce-anim {
+  from {
+    transform: translateY(18px);
+  }
+
+  to {
+    transform: translateY(0px);
+  }
+ }

@@ -4,6 +4,10 @@ import { gsap } from '@/libs/gsap'
 import Image from 'next/image'
 import { useLayoutEffect, useRef } from 'react'
 import TopImage from "../../../../public/images/webp/dashboard.webp"
+import TopImage1Image from "../../../../public/images/webp/home/topImage1.webp"
+import TopImage2Image from "../../../../public/images/webp/home/topImage2.webp"
+import TopImage3Image from "../../../../public/images/webp/home/topImage3.webp"
+import TopImage4Image from "../../../../public/images/webp/home/topImage4.webp"
 import WorldImage from "../../../../public/images/webp/map.webp"
 
 const TopSection = () => {
@@ -25,18 +29,6 @@ const TopSection = () => {
                     scrub: 1
                 }
             });
-
-            tl.from("h1 span span", {
-                y: 100,
-                ease: "power2.out",
-                stagger: 0.1,
-            });
-
-            tl.from("p span span", {
-                y: 25,
-                ease: "power2.out",
-                stagger: 0.1,
-            }, "<");
 
             tl.from("a", {
                 opacity: 0,
@@ -72,90 +64,44 @@ const TopSection = () => {
 
         return () => ctx.revert();
     }, [])
- 
+
     return (
         <section ref={ref} className={`relative bg-[#EFF6FF]`}>
             <div className='container px-4 lg:px-0 xl:px-8 2xl:px-0 pt-[5.563rem] md:pt-[6.25rem]  mx-auto'>
-                <div className='relative w-full md:w-10/12 lg:w-9/12 xl:w-7/12 mx-auto'>
+                <div className='hidden md:flex justify-center md:absolute top-28 left-0 right-0 w-full max-w-6xl h-[25rem] mx-auto'>
+                    <div className='absolute top-0 left-0 bounce-animate'>
+                        <Image src={TopImage1Image} className='w-fit' alt="" />
+                    </div>
+                    <div className='absolute left-20 bottom-0 bounce-animate duration-[4s]'>
+                        <Image src={TopImage2Image} className='w-fit' alt="" />
+                    </div>
+                    <div className='absolute top-0 right-0 bounce-animate duration-[3s]'>
+                        <Image src={TopImage3Image} className='w-fit' alt="" />
+                    </div>
+                    <div className='absolute bottom-0 right-20 bounce-animate duration-[5s]'>
+                        <Image src={TopImage4Image} className='w-fit' alt="" />
+                    </div>
+                </div>
+
+                <div className='relative w-full md:w-11/12 lg:w-10/12 xl:w-8/12 mx-auto'>
                     <div className='absolute -top-6 md:top-0 mx-auto z-0'>
                         <Image src={WorldImage} alt="World" className='w-full' />
                     </div>
-                    <div className='relative'>
+                    <div className='relative w-11/12 md:w-9/12 mx-auto'>
                         <div className="flex justify-center items-center">
-                            <p className="px-2.5 py-[0.625rem] bg-white rounded-[32px] text-secondary text-xs font-medium leading-3 tracking-tight">
-                                The future of global workforce management
+                            <p className="px-2.5 py-[0.625rem] bg-white rounded-[32px] text-primary text-xs font-medium leading-3 tracking-tight">
+                                Global Hiring, Simplified
                             </p>
                         </div>
 
                         <h1 className='mt-3 font-bold text-primary text-center text-[2rem] md:text-5xl md:leading-tight lg:text-6xl lg:leading-tight'>
-                            <span className='inline-flex overflow-hidden'>
-                                <span>Global</span>&nbsp;
-                            </span>
-                            <span className='inline-flex overflow-hidden'>
-                                <span>Expansion,</span>&nbsp;
-                            </span>
-                            <span className='inline-flex overflow-hidden'>
-                                <span>Simplified</span>&nbsp;
-                            </span>
-                            <span className='inline-flex overflow-hidden'>
-                                <span>with</span>&nbsp;
-                            </span>
-                            <span className='inline-flex overflow-hidden'>
-                                <span>AI</span>&nbsp;
-                            </span>
+                            Hire anywhere.
+                            Deliver everywhere.
                         </h1>
 
                         <p className='w-11/12 md:w-9/12 lg:w-10/12 mx-auto mt-5 md:mt-4 text-base text-center font-medium leading-7 text-textColor'>
-                            <span className='inline-flex overflow-hidden'>
-                                <span>A</span>&nbsp;
-                            </span>
-                            <span className='inline-flex overflow-hidden'>
-                                <span>comprehensive</span>&nbsp;
-                            </span>
-                            <span className='inline-flex overflow-hidden'>
-                                <span>solution</span>&nbsp;
-                            </span>  <span className='inline-flex overflow-hidden'>
-                                <span>for</span>&nbsp;
-                            </span>
-                            <span className='inline-flex overflow-hidden'>
-                                <span>global</span>&nbsp;
-                            </span>
-                            <span className='inline-flex overflow-hidden'>
-                                <span>expansion:</span>&nbsp;
-                            </span>
-                            <span className='inline-flex overflow-hidden'>
-                                <span>Compliant</span>&nbsp;
-                            </span>
-                            <span className='inline-flex overflow-hidden'>
-                                <span>hiring</span>&nbsp;
-                            </span>
-                            <span className='inline-flex overflow-hidden'>
-                                <span>and</span>&nbsp;
-                            </span>
-                            <span className='inline-flex overflow-hidden'>
-                                <span>payments</span>&nbsp;
-                            </span>
-                            <span className='inline-flex overflow-hidden'>
-                                <span>in</span>&nbsp;
-                            </span>
-                            <span className='inline-flex overflow-hidden'>
-                                <span>120+</span>&nbsp;
-                            </span>
-                            <span className='inline-flex overflow-hidden'>
-                                <span>countries,</span>&nbsp;
-                            </span>
-                            <span className='inline-flex overflow-hidden'>
-                                <span>plus</span>&nbsp;
-                            </span>
-                            <span className='inline-flex overflow-hidden'>
-                                <span>contractor</span>&nbsp;
-                            </span>
-                            <span className='inline-flex overflow-hidden'>
-                                <span>growth</span>&nbsp;
-                            </span>
-                            <span className='inline-flex overflow-hidden'>
-                                <span> products.</span>&nbsp;
-                            </span>
+                            At Entrova, we connect companies in the Global North with exceptional talent from the Global
+                            South—unlocking opportunities and fostering innovation without borders.
                         </p>
 
                         <div className='button-container mt-[2.5rem] md:mt-[2.125rem] flex justify-center gap-3'>

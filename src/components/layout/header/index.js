@@ -3,7 +3,7 @@ import LinkButton from '@/components/elements/linkButton'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
-import Logo from "../../../../public/images/svg/logo.webp"
+import Logo from "../../../../public/images/svg/logo.svg"
 import MobileMenu from './mobileMenu'
 
 const NavLink = ({ href, title }) => {
@@ -33,7 +33,6 @@ const Header = () => {
 
                         <div className='hidden md:flex w-7/12  justify-center'>
                             <div className={`flex items-center space-x-4 lg:space-x-7`}>
-                                <NavLink title='Hiring' href='/hiring' />
                                 <NavLink title='Employees' href='/employees' />
                                 <NavLink title='Contractors' href='/contractors' />
                                 <NavLink title='Integration' href='/integrations' />
@@ -48,7 +47,13 @@ const Header = () => {
                                     <LinkButton className="px-4 lg:px-8" title={"Book A Demo"} href={"/book-a-demo"} />
                                 </div>
                                 <div className='md:hidden lg:flex'>
-                                    <LinkButton title={"Log In"} buttonType='' showArrow />
+                                    <LinkButton
+                                        title={"Contact Sales"}
+                                        buttonType=''
+                                        href={"tel:+12027738695"}
+                                        target={"_blank"}
+                                        showArrow
+                                    />
                                 </div>
                             </div>
 

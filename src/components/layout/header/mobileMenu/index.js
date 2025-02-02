@@ -69,7 +69,7 @@ const MobileMenu = ({ isOpen, handleClose }) => {
                     <div className="flex flex-col gap-y-6">
                       {data?.map(datum => <div key={datum?.id} className="">
                         <Link href={datum?.url} className="text-lg font-semibold text-primary hover:text-secondary">
-                         {datum?.title}
+                          {datum?.title}
                         </Link>
                       </div>)}
                     </div>
@@ -82,8 +82,10 @@ const MobileMenu = ({ isOpen, handleClose }) => {
                       customClassName="w-full py-4"
                     />
                     <LinkButton
-                      title={"Log In"}
-                      buttonType=""
+                      title={"Contact Sales"}
+                      buttonType=''
+                      href={"tel:+12027738695"}
+                      target={"_blank"}
                       customClassName="w-full py-4"
                     />
                   </div>
