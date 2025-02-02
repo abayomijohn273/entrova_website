@@ -23,3 +23,33 @@
     transform: translateY(0px);
   }
  }
+
+ .sliderSection .swiper-pagination {
+  z-index: 999px;
+  bottom: 0px !important;
+  left: 0 !important;
+  right: 0 !important;
+  margin: auto !important;
+  text-align: center !important;
+}
+
+.sliderSection .swiper-pagination-bullet {
+  width: 10px !important;
+  height: 10px !important;
+  background: #84CC16;
+  border-radius: 0px !important;
+  opacity: 1 !important;
+  border-radius: 100% !important;
+}
+
+.sliderSection .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #012A36;
+}
+
+@media screen and (max-width: 1024px) {
+  .sliderSection .swiper-pagination-bullet {
+    width: 6px !important;
+    height: 6px !important;
+  }
+}
+

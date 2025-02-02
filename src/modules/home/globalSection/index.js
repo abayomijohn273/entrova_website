@@ -13,7 +13,7 @@ const GlobalSection = () => {
         <div className='relative grid grid-cols-1 lg:grid-cols-2 gap-x-6'>
           <div className='md:w-10/12 lg:w-11/12'>
             <h2 className='w-full md:w-8/12 lg:w-full text-white font-bold text-[2.5rem] leading-tight lg:text-[3rem] lg:leading-none xl:text-[4rem] xl:leading-none'>
-              Reimagine Global Talent Access
+              Reimagine Global <span className='text-secondary'>Talent</span> Access
             </h2>
 
             <div className='mt-10 flex flex-col md:flex-row flex-wrap md:items-center md:space-x-2 text-[13px] text-[#656565] font-semibold'>

@@ -10,7 +10,7 @@ const Card = ({ icon, title, description }) => {
     </div>
 
     <div className="mt-5 w-11/12 mx-auto md:mx-0">
-      <h5 className="text-lg font-bold text-secondary">
+      <h5 className="text-lg lg:text-xl font-bold text-secondary">
         {title}
       </h5>
       <p className="mt-5 w-11/12 mx-auto md:mx-0 text-base text-white">

@@ -83,7 +83,7 @@ const TopSection = () => {
                     </div>
                 </div>
 
-                <div className='relative w-full md:w-11/12 lg:w-10/12 xl:w-8/12 mx-auto'>
+                <div className='relative w-full md:w-10/12 lg:w-10/12 xl:w-8/12 mx-auto'>
                     <div className='absolute -top-6 md:top-0 mx-auto z-0'>
                         <Image src={WorldImage} alt="World" className='w-full' />
                     </div>
