@@ -8,7 +8,7 @@ import TeamDashboardImage from "../../../../public/images/webp/team-dashboard.we
 
 const GlobalSection = () => {
   return (
-    <section className={`relative bg-primary pt-[5.563rem] md:pt-[6.25rem] lg:pt-[9rem] pb-[8rem] md:pb-[10rem]`}>
+    <section className={`relative bg-primary pt-[5.563rem] md:pt-[6.25rem] lg:pt-[9rem] pb-[8rem] md:pb-[10rem] overflow-x-hidden`}>
       <div className='container px-4 lg:px-0 xl:px-8 2xl:px-0 mx-auto'>
         <div className='relative grid grid-cols-1 lg:grid-cols-2 gap-x-6'>
           <div className='md:w-10/12 lg:w-11/12'>

@@ -17,7 +17,7 @@ const Card = ({ title, description }) => {
 
 const WhySection = () => {
   return (
-    <section className={`relative bg-white`}>
+    <section className={`relative bg-white overflow-x-hidden`}>
       <div className='container px-4 lg:px-0 xl:px-8 2xl:px-0 mx-auto pt-[6.5rem] pb-[7rem] lg:pt-[7rem] lg:pb-[8.938rem]'>
         <div className='w-full mx-auto'>
           <h3 className='text-primary font-bold text-3xl md:text-4xl lg:text-5xl text-center'>
