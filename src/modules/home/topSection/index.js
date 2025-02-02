@@ -66,7 +66,7 @@ const TopSection = () => {
     }, [])
 
     return (
-        <section ref={ref} className={`relative bg-[#EFF6FF] overflow-x-hidden`}>
+        <section ref={ref} className={`relative bg-[#EFF6FF]`}>
             <div className='container px-4 lg:px-0 xl:px-8 2xl:px-0 pt-[5.563rem] md:pt-[6.25rem]  mx-auto'>
                 <div className='hidden md:flex justify-center md:absolute top-28 left-0 right-0 w-full max-w-6xl h-[25rem] mx-auto'>
                     <div className='absolute top-0 left-0 bounce-animate'>
