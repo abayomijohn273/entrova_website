@@ -4,7 +4,6 @@ import GlobalSection from './globalSection'
 import HowSection from './howSection'
 import OurUniqueSection from './ourUniqueSection'
 import SolutionSection from './solutionSection'
-import SuccessStorySection from './successStorySection'
 import TopSection from './topSection'
 import WhySection from './whySection'
 
@@ -16,9 +15,10 @@ const Home = () => {
             <OurUniqueSection />
             <WhySection />
             <HowSection />
-            <SolutionSection />
+       
             <GlobalSection />
-            <SuccessStorySection />
+            <SolutionSection />
+            {/* <SuccessStorySection /> */}
         </MainWrapper>
     )
 }
