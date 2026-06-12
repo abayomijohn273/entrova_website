@@ -8,15 +8,14 @@ const IntegrationSection = () => {
                 <div className='relative grid grid-cols-1 lg:grid-cols-2 gap-x-6 items-center'>
                     <div className='w-full lg:w-11/12 xl:w-10/12'>
                         <p className='mt-4 w-full md:w-8/12 lg:w-full text-primary font-bold text-[28px] leading-[38px]'>
-                            Integration
+                            Built to integrate
                         </p>
                         <p className="mt-4 text-base text-[#1E1E1E]">
-                            Streamline processes with the industry&apos;s widest
-                            array of integrations Our API and partnerships
-                            with top HRIS, accounting, and payroll software
-                            enable seamless integration of Entrova with your
-                            HR technology, automating the complete lifecycle
-                            and ensuring real-time updates
+                            Your product doesn&apos;t live in isolation. We connect
+                            it to the tools, payment providers, and third-party
+                            APIs you already use—building secure, well-documented
+                            integrations that automate workflows and keep your
+                            data in sync in real time.
                         </p>
                     </div>
                     <div className='mt-[4.25rem] lg:mt-0 flex justify-center'>

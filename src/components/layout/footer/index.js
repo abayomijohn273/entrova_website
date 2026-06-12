@@ -61,12 +61,12 @@ const Footer = () => {
                 <div className=' pt-[3.688rem] md:pt-6 flex flex-wrap justify-between items-end'>
                     <div className='w-10/12 md:w-6/12 lg:w-5/12'>
                         <p className='text-xl font-medium flex flex-col'>
-                            <span>Send a mail to <FooterLink href={"mailto:info@entrova.co"} title={"info@entrova.co"} /></span>
+                            <span>Have a project in mind? Email <FooterLink href={"mailto:hello@entrova.co"} title={"hello@entrova.co"} /></span>
                             <span> or call <FooterLink href={"tel:+447365341566"} title={"+44 7365 3415665"} /> | <FooterLink href={"tel:+12027738695"} title={"+12027738695"} /></span>
                         </p>
                     </div>
                     <div className='mt-[29px] md:mt-0 w-full md:flex-1 flex flex-col md:flex-row flex-start md:justify-end md:items-center md:gap-6'>
-                        <p className='text-[#737373] text-sm font-medium'>&copy;2024 Entrova Limited</p>
+                        <p className='text-[#737373] text-sm font-medium'>&copy;2026 Entrova Limited</p>
                         <div className='mt-3 md:mt-0 flex items-center gap-x-4 text-sm font-medium gap-6'>
                             <Link
                                 href={"/terms-of-service"}

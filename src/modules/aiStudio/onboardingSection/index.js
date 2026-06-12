@@ -24,33 +24,33 @@ const OnboardingSection = () => {
                     <div className='md:w-10/12 lg:w-11/12'>
                         <div className="flex justify-start">
                             <p className=" rounded-[32px] text-secondary text-xs font-medium leading-3 tracking-tight">
-                                Onboarding
+                                Why AI with us
                             </p>
                         </div>
                         <h1 className='w-full md:w-8/12 mt-3 font-bold text-primary text-[28px] leading-[38px]'>
-                            Work Faster, Smarter, Anywhere
+                            AI that ships, not just demos
                         </h1>
 
                         <div className='mt-8'>
                             <ul className='benefit-section_list flex flex-col gap-y-6'>
                                 <BenefitListItem
-                                    title={"Find the Right Talent"}
-                                    description={`Prioritize skills and expertise over location.`}
+                                    title={"Production-Ready"}
+                                    description={`We build AI that's reliable, monitored, and ready to scale.`}
                                 />
                                 <BenefitListItem
-                                    title={"Onboard Effortlessly"}
-                                    description={`Our platform ensures seamless integration of talent into your team.`}
+                                    title={"Your Data, Secured"}
+                                    description={`Privacy-first architecture and responsible AI practices by default.`}
                                 />
                                 <BenefitListItem
-                                    title={"Adapt to Changing Needs"}
-                                    description={`Scale your workforce up or down as projects evolve.`}
+                                    title={"Measurable Impact"}
+                                    description={`We focus on AI that drives outcomes—not hype.`}
                                 />
                             </ul>
                         </div>
 
                         <div className='button-container mt-[2.5rem] md:mt-[2.125rem] flex justify-start gap-3'>
                             <div className=''>
-                                <LinkButton className="!bg-[#EFF6FF]" buttonType='secondary' title={"Book A Demo"} href={"/book-a-demo"} showArrow />
+                                <LinkButton className="!bg-[#EFF6FF]" buttonType='secondary' title={"Start a Project"} href={"/book-a-demo"} showArrow />
                             </div>
                         </div>
                     </div>

@@ -23,11 +23,11 @@ const SuccessSection = () => {
                     <div className='w-full lg:w-11/12 xl:w-10/12'>
                         <div className="flex justify-start">
                             <p className="text-secondary text-base font-medium leading-3 tracking-tight">
-                                Success Stories
+                                Case Studies
                             </p>
                         </div>
                         <p className='mt-4 w-full md:w-8/12 lg:w-full text-primary font-bold text-[28px] leading-[38px]'>
-                            Transforming Businesses Across the Globe
+                            AI That Delivered Real Results
                         </p>
 
                         {/* Desktop */}
@@ -38,18 +38,18 @@ const SuccessSection = () => {
                     <div className='mt-[4.25rem] lg:mt-[3.5rem] pb-[1.125rem]'>
                         <ul className='benefit-section_list flex flex-col gap-y-6'>
                             <BenefitListItem
-                                title={"Scaling Engineering Teams for Speed and Innovation"}
-                                description={`A FinTech startup doubled their project delivery speed by hiring a 
-                                    team of software engineers from Entrova in just two weeks.`}
+                                title={"Cutting Support Costs by 40%"}
+                                description={`We built an AI support copilot for a SaaS company that 
+                                    resolved routine tickets automatically—cutting costs and response times.`}
                             />
                             <BenefitListItem
-                                title={"Breaking Barriers with African Talent"}
-                                description={`A global e-commerce company hired African developers through Entrova, 
-                                    saving 60% on costs while achieving record-breaking user engagement.`}
+                                title={"Automating Document Workflows"}
+                                description={`A fintech automated KYC and contract review with our document 
+                                    intelligence pipeline, processing in seconds what once took hours.`}
                             />
                             <BenefitListItem
-                                title={"Ensuring Compliance for Global Operations"}
-                                description={`A healthcare SaaS company expanded into three new markets while staying compliant, thanks to Entrova’s legal and payroll solutions.`}
+                                title={"Smarter Product Search"}
+                                description={`An e-commerce platform boosted conversion with semantic search and AI-powered recommendations.`}
                             />
                         </ul>
                     </div>

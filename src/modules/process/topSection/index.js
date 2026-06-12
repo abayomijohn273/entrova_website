@@ -10,22 +10,22 @@ const TopSection = () => {
                     <div className='md:w-10/12 lg:w-full'>
                         <div className="flex justify-start">
                             <p className="px-2.5 py-[0.625rem] bg-white rounded-[32px] text-secondary text-xs font-medium leading-3 tracking-tight">
-                                API
+                                How we work
                             </p>
                         </div>
                         <h1 className='mt-3 font-bold text-primary text-[1.5rem] md:text-4xl md:leading-tight lg:text-5xl lg:leading-tight'>
-                        Harness the Strength of Entrova&apos;s 
-                        APIs for Global Payroll Empowerment
+                        A Process Built for Shipping
+                        Great Software
                         </h1>
 
                         <p className='w-11/12 md:w-9/12 lg:w-10/12 mt-5 md:mt-4 text-base font-medium leading-6 text-textColor'>
-                        Empower your platform with Entrova&apos;s powerful APIs, seamlessly integrating 
-                        robust global payroll functionalities to enhance operational efficiency.
+                        We pair senior engineering with a transparent, agile process—so you always know
+                        where your project stands and what&apos;s shipping next.
                         </p>
 
                         <div className='button-container mt-[2.5rem] md:mt-[2.125rem] flex justify-start gap-3'>
                             <div className=''>
-                                <LinkButton title={"Book A Demo"} href={"/book-a-demo"} className={"px-8"} showArrow />
+                                <LinkButton title={"Start a Project"} href={"/book-a-demo"} className={"px-8"} showArrow />
                             </div>
                         </div>
                     </div>

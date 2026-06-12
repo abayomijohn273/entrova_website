@@ -23,15 +23,15 @@ const ProcedureSection = () => {
                     <div className='w-full lg:w-11/12 xl:w-10/12'>
                         <div className="flex justify-start">
                             <p className="px-2.5 py-[0.625rem] bg-[#EFF6FF] rounded-[32px] text-[#012A36] text-xs font-medium leading-3 tracking-tight">
-                                Hire Talent
+                                AI Solutions
                             </p>
                         </div>
                         <p className='mt-4 w-full md:w-8/12 lg:w-full text-primary font-bold text-[28px] leading-[38px]'>
-                            Solutions for Every Need
+                            What We Can Build
                         </p>
                         <p className="mt-4 text-base text-[#1E1E1E]">
-                            Entrova safeguards your global business, ensuring
-                            compliance across numerous countries.
+                            Practical AI solutions that fit into your product and
+                            workflows—delivering value from day one.
                         </p>
 
                         {/* Desktop */}
@@ -42,16 +42,16 @@ const ProcedureSection = () => {
                     <div className='mt-[4.25rem] lg:mt-0 pb-[1.125rem]'>
                         <ul className='benefit-section_list flex flex-col gap-y-6'>
                             <BenefitListItem
-                                title={"Hire Individuals"}
-                                description={`Fill skill gaps or onboard highly skilled professionals for specific roles.`}
+                                title={"AI Copilots"}
+                                description={`Embed assistants that help your users and teams work faster.`}
                             />
                             <BenefitListItem
-                                title={"Manage Projects"}
-                                description={`From application development to AI-powered prototypes, let us deliver projects on time and on budget.`}
+                                title={"Document Intelligence"}
+                                description={`Extract, summarize, classify, and search across your unstructured data.`}
                             />
                             <BenefitListItem
-                                title={"End-to-End Hiring"}
-                                description={`Leave it to us to source, onboard, and manage your global team while you focus on growing your business.`}
+                                title={"Custom Models"}
+                                description={`Fine-tuned and bespoke models tailored to your domain and data.`}
                             />
                         </ul>
                     </div>

@@ -27,7 +27,7 @@ const WhySection = () => {
                             </p>
                         </div>
                         <p className='mt-4 w-full md:w-8/12 lg:w-full text-primary font-bold text-[28px] leading-[38px]'>
-                            Discover why enterprises choose Entrova for their global payroll needs
+                            Why companies partner with us for the long run
                         </p>
 
                         {/* Desktop */}
@@ -38,27 +38,27 @@ const WhySection = () => {
                     <div className='mt-[4.25rem] lg:mt-[3.5rem] pb-[1.125rem]'>
                         <ul className='benefit-section_list flex flex-col gap-y-6'>
                             <BenefitListItem
-                                title={"Unified Solution"}
-                                description={`Say goodbye to multiple payroll providers and manage your global 
-                                payroll seamlessly from a single, user-friendly platform.`}
+                                title={"One Partner, Full Stack"}
+                                description={`Strategy, design, engineering, and AI—everything you need 
+                                under one roof, with no hand-offs.`}
                             />
                             <BenefitListItem
-                                title={"Compliance Module"}
-                                description={`Ensure ongoing compliance with local tax and labor laws, 
-                                supported by Entrova's comprehensive compliance module.`}
+                                title={"Deep Technical Expertise"}
+                                description={`Seasoned engineers who&apos;ve built and scaled real products 
+                                across many industries.`}
                             />
                             <BenefitListItem
-                                title={"Real-Time Insights"}
-                                description={`Access instant payroll data and reports, empowering informed decision-making with real-time insights.`}
+                                title={"Real-Time Visibility"}
+                                description={`Transparent progress tracking and regular demos keep you informed and in control.`}
                             />
                             <BenefitListItem
-                                title={"Scalability"}
-                                description={`Whether you're a startup or a multinational corporation, Entrova scales 
-                                with your business as you expand into new territories.`}
+                                title={"Scales With You"}
+                                description={`Whether you&apos;re a startup or an enterprise, we flex to meet 
+                                your needs as you grow.`}
                             />
                             <BenefitListItem
-                                title={"Exceptional Support"}
-                                description={`Rely on our dedicated customer support team for prompt and reliable assistance with any queries.`}
+                                title={"People You Enjoy Working With"}
+                                description={`Responsive, thoughtful, and genuinely invested in helping you succeed.`}
                             />
                         </ul>
                     </div>

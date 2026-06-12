@@ -5,7 +5,7 @@ import ProcedureSection from './procedureSection'
 import TopSection from './topSection'
 import WhySection from './whySection'
 
-const Payroll = () => {
+const About = () => {
     return (
         <MainWrapper>
             <TopSection />
@@ -17,4 +17,4 @@ const Payroll = () => {
     )
 }
 
-export default Payroll
+export default About

@@ -23,14 +23,14 @@ const ProcedureSection = () => {
                     <div className='w-full lg:w-11/12 xl:w-10/12'>
                         <div className="flex justify-start">
                             <p className="px-2.5 py-[0.625rem] bg-[#EFF6FF] rounded-[32px] text-[#012A36] text-xs font-medium leading-3 tracking-tight">
-                                Payroll
+                                Our Story
                             </p>
                         </div>
                         <p className='mt-4 w-full md:w-8/12 lg:w-full text-primary font-bold text-[28px] leading-[38px]'>
-                            Global Payroll Management
+                            How We Got Here
                         </p>
                         <p className="mt-4 text-base text-[#1E1E1E]">
-                            Streamlined Global Payroll in Four Easy Steps
+                            From a small group of builders to a full-service studio.
                         </p>
 
                         {/* Desktop */}
@@ -41,25 +41,25 @@ const ProcedureSection = () => {
                     <div className='mt-[4.25rem] lg:mt-0 pb-[1.125rem]'>
                         <ul className='benefit-section_list flex flex-col gap-y-6'>
                             <BenefitListItem
-                                title={"Step 1: Onboard Your Global Team"}
-                                description={`Add international employees effortlessly to our platform.`}
+                                title={"Founded by Builders"}
+                                description={`Entrova began with a simple belief: great products come from small, senior teams who care.`}
                             />
                             <BenefitListItem
-                                title={"Step 2: Generate Payroll"}
-                                description={`Produce accurate payroll for your global team in their respective local currencies.`}
+                                title={"Product-First Mindset"}
+                                description={`We grew by shipping real products—not selling hours—earning trust one launch at a time.`}
                             />
                             <BenefitListItem
-                                title={"Step 3: One-Click Payments"}
-                                description={`Execute payments for your global team in over 120 currencies with a single click.`}
+                                title={"Embracing AI Early"}
+                                description={`As AI matured, we built a dedicated studio to bring it into production for our clients.`}
                             />
                             <BenefitListItem
-                                title={"Step 4: Ongoing Compliance"}
-                                description={`Ensure continuous compliance with local tax and labor laws for your global payroll.`}
+                                title={"A Global Team"}
+                                description={`Today we&apos;re a distributed team of engineers, designers, and AI specialists serving clients worldwide.`}
                             />
                             <BenefitListItem
-                                title={"Step 5: Continuous Support"}
-                                description={`Count on our ongoing support for you and your contractors. 
-                                We're here to assist with any changes or updates, ensuring a seamless experience for all.`}
+                                title={"Long-Term Partnerships"}
+                                description={`Many of our clients have worked with us for years—because we 
+                                stay invested in their success.`}
                             />
                         </ul>
                     </div>

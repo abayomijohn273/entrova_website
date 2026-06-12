@@ -7,33 +7,33 @@ const MobileMenu = ({ isOpen, handleClose }) => {
   const data = [
     {
       id: 1,
-      title: "Hiring",
-      url: "/hiring"
+      title: "Services",
+      url: "/services"
     },
     {
       id: 2,
-      title: "Employees",
-      url: "/employees"
+      title: "AI Studio",
+      url: "/ai-studio"
     },
     {
       id: 3,
-      title: "Contractors",
-      url: "/contractors"
+      title: "Work",
+      url: "/work"
     },
     {
       id: 4,
-      title: "Integration",
-      url: "/integrations"
+      title: "Process",
+      url: "/process"
     },
     {
       id: 5,
-      title: "Payroll",
-      url: "/payroll"
+      title: "About",
+      url: "/about"
     },
     {
       id: 6,
-      title: "API",
-      url: "/api"
+      title: "Integrations",
+      url: "/integrations"
     },
   ]
 
@@ -76,13 +76,13 @@ const MobileMenu = ({ isOpen, handleClose }) => {
                   </div>
                   <div className="mt-10 w-full flex flex-col gap-y-4">
                     <LinkButton
-                      title={"Book A Demo"}
+                      title={"Start a Project"}
                       href={"/book-a-demo"}
                       buttonType="primary"
                       customClassName="w-full py-4"
                     />
                     <LinkButton
-                      title={"Contact Sales"}
+                      title={"Talk to Us"}
                       buttonType=''
                       href={"tel:+12027738695"}
                       target={"_blank"}

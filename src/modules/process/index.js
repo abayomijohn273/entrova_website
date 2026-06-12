@@ -3,7 +3,7 @@ import ProcedureSection from './procedureSection'
 import TopSection from './topSection'
 import WhySection from './whySection'
 
-const API = () => {
+const Process = () => {
     return (
         <MainWrapper>
             <TopSection />
@@ -13,4 +13,4 @@ const API = () => {
     )
 }
 
-export default API
+export default Process

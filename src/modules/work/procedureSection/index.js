@@ -23,14 +23,14 @@ const ProcedureSection = () => {
                     <div className='w-full lg:w-11/12 xl:w-10/12'>
                         <div className="flex justify-start">
                             <p className="px-2.5 py-[0.625rem] bg-[#EFF6FF] rounded-[32px] text-[#012A36] text-xs font-medium leading-3 tracking-tight">
-                                Hire Contractors
+                                Case Study
                             </p>
                         </div>
                         <p className='mt-4 w-full md:w-8/12 lg:w-full text-primary font-bold text-[28px] leading-[38px]'>
-                            Global Compliance Assurance
+                            Shipping a Platform in 12 Weeks
                         </p>
                         <p className="mt-4 text-base text-[#1E1E1E]">
-                            Simplified Contractor Hiring and Payment Process
+                            How we took a B2B SaaS product from concept to launch.
                         </p>
 
                         {/* Desktop */}
@@ -41,26 +41,26 @@ const ProcedureSection = () => {
                     <div className='mt-[4.25rem] lg:mt-0 pb-[1.125rem]'>
                         <ul className='benefit-section_list flex flex-col gap-y-6'>
                             <BenefitListItem
-                                title={"Step 1: Contractor Onboarding"}
-                                description={`Effortlessly onboard your contractors via our platform. 
-                                They complete their KYC (Know Your Customer) process, ensuring compliance and security.`}
+                                title={"Step 1: Discovery & Scoping"}
+                                description={`We ran a discovery workshop to define the MVP, 
+                                map user journeys, and lock a clear scope and timeline.`}
                             />
                             <BenefitListItem
-                                title={"Step 2: Contract Creation and Signing"}
-                                description={`Generate and sign contracts that align with local laws in just a few clicks.`}
+                                title={"Step 2: Design Sprint"}
+                                description={`Wireframes and a clickable prototype validated the experience with real users before build.`}
                             />
                             <BenefitListItem
-                                title={"Step 3: Invoice Handling"}
-                                description={`Contractors submit invoices through our platform. You review and approve these invoices efficiently.`}
+                                title={"Step 3: Agile Build"}
+                                description={`A senior squad shipped tested features every two weeks across web and API.`}
                             />
                             <BenefitListItem
-                                title={"Step 4: One-Click Payments"}
-                                description={`Initiate payments to all your contractors simultaneously, in over 120+ currencies, with just one click.`}
+                                title={"Step 4: QA & Launch"}
+                                description={`Automated testing, performance tuning, and a smooth production deployment.`}
                             />
                             <BenefitListItem
-                                title={"Step 5: Continuous Support"}
-                                description={`Count on our ongoing support for you and your contractors. 
-                                We're here to assist with any changes or updates, ensuring a seamless experience for all.`}
+                                title={"Step 5: Ongoing Partnership"}
+                                description={`Post-launch we stayed on for monitoring, iteration, 
+                                and new features as the product scaled to thousands of users.`}
                             />
                         </ul>
                     </div>

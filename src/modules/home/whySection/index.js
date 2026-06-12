@@ -21,7 +21,7 @@ const WhySection = () => {
       <div className='container px-4 lg:px-0 xl:px-8 2xl:px-0 mx-auto pt-[6.5rem] pb-[7rem] lg:pt-[7rem] lg:pb-[8.938rem]'>
         <div className='w-full mx-auto'>
           <h3 className='text-primary font-bold text-3xl md:text-4xl lg:text-5xl text-center'>
-            Why Companies Trust Entrova
+            Why Companies Build With Entrova
           </h3>
 
           <div className='mt-16 lg:mt-20'>
@@ -30,18 +30,18 @@ const WhySection = () => {
 
           <div className="mt-14 md:mt-16 lg:mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-16">
             <Card
-              title={"AI-Powered Hiring Decisions"}
-              description={`Our proprietary AI companion identifies top talent from 
-                  diverse markets with unmatched precision.`}
+              title={"Product-Led Engineering"}
+              description={`We obsess over outcomes, not just code—shipping software that 
+                  solves real problems for real users.`}
             />
             <Card
-              title={"Compliance, Solved"}
-              description={`From legal paperwork to payroll and tax compliance, we’ve got you covered across 120+ countries.`}
+              title={"AI Expertise You Can Ship"}
+              description={`From RAG pipelines to computer vision, we turn cutting-edge AI into reliable, production-grade features.`}
             />
             <Card
-              title={"Empowering Global South Talent"}
-              description={`Entrova creates a direct pipeline for companies to access exceptional talent from Africa and other 
-                emerging markets, helping businesses scale while driving global economic inclusion.`}
+              title={"Transparent Collaboration"}
+              description={`Clear communication, real-time visibility, and senior engineers who work as a true 
+                extension of your team.`}
             />
           </div>
         </div>

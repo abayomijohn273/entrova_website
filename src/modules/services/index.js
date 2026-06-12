@@ -6,7 +6,7 @@ import OnboardingSection from './onboardingSection'
 import ProcedureSection from './procedureSection'
 import TopSection from './topSection'
 
-const Employee = () => {
+const Services = () => {
   return (
     <MainWrapper>
         <TopSection />
@@ -19,4 +19,4 @@ const Employee = () => {
   )
 }
 
-export default Employee
+export default Services

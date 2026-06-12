@@ -7,9 +7,9 @@ const inter = Albert_Sans({
 })
 
 export const metadata = {
-    title: 'entrova',
-    description: 'Simplifying global workforce management',
-    applicationName: "entrova",
+    title: 'Entrova | Software Development Company & AI Studio',
+    description: 'Entrova is a software development company and AI studio. We design, build, and ship custom software and AI products for startups and enterprises.',
+    applicationName: "Entrova",
 }
 
 export default function RootLayout({ children }) {

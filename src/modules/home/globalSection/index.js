@@ -13,23 +13,23 @@ const GlobalSection = () => {
         <div className='relative grid grid-cols-1 lg:grid-cols-2 gap-x-6'>
           <div className='md:w-10/12 lg:w-11/12'>
             <h2 className='w-full md:w-8/12 lg:w-full text-white font-bold text-[2.5rem] leading-tight lg:text-[3rem] lg:leading-none xl:text-[4rem] xl:leading-none'>
-              Reimagine Global <span className='text-secondary'>Talent</span> Access
+              Engineering Without <span className='text-secondary'>Limits</span>
             </h2>
 
             <div className='mt-10 flex flex-col md:flex-row flex-wrap md:items-center md:space-x-2 text-[13px] text-[#656565] font-semibold'>
               <div className='inline-flex overflow-hidden space-x-2 items-center'>
                 <div className="w-2 h-2 bg-secondary rounded-full block md:hidden"></div>
-                <p>FOR YOUR BUSINESS</p>&nbsp;
+                <p>FOR STARTUPS</p>&nbsp;
               </div>
 
               <div className='inline-flex overflow-hidden space-x-2 items-center'>
                 <div className="w-2 h-2 bg-secondary rounded-full block"></div>
-                <p>FOR YOUR EMPLOYEES</p>&nbsp;
+                <p>FOR ENTERPRISES</p>&nbsp;
               </div>
 
               <div className='inline-flex overflow-hidden space-x-2 items-center'>
                 <div className="w-2 h-2 bg-secondary rounded-full block"></div>
-                <p>FOR YOUR CONTRACTORS</p>&nbsp;
+                <p>FOR PRODUCT TEAMS</p>&nbsp;
               </div>
             </div>
 
@@ -39,12 +39,12 @@ const GlobalSection = () => {
 
             <div className='mt-10 w-full md:w-11/12 xl:w-10/12'>
               <p className='text-white text-base font-medium leading-7'>
-                With Entrova, you get a platform that streamlines hiring, compliance, and
-                payments for international talent, ensuring you focus on growth while we handle the complexities.
+                Partner with a team that ships. We handle architecture, engineering, and AI so you can focus on your
+                product and your customers—at any stage of growth.
               </p>
 
               <div className='mt-8'>
-                <LinkButton title={"Book A Demo"} href={"/book-a-demo"} className={"px-8"} showArrow />
+                <LinkButton title={"Start a Project"} href={"/book-a-demo"} className={"px-8"} showArrow />
               </div>
             </div>
           </div>

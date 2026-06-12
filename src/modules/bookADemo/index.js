@@ -3,12 +3,12 @@ const BookADemo = () => {
   return (
     <main id="main" className='relative'>
       <iframe
-        title="Book a demo"
+        title="Start a project with Entrova"
         width='100%'
         height='900px'
         src='https://utiva.zohobookings.com/portal-embed#/entrova-demo'
-        frameborder='0'
-        allowfullscreen=''
+        frameBorder='0'
+        allowFullScreen
       > </iframe>
     </main>
   )

@@ -20,7 +20,7 @@ const TermsOfService = () => {
         <section className="pt-6 pb-10 w-full lg:w-8/12 mx-auto mb-10">
           <div className="container mx-auto px-4 leading-8 text-gray text-base">
             <div className="mb-8">
-              <p className='italic'>Last updated: 09, April 2024</p>
+              <p className='italic'>Last updated: 09, April 2026</p>
               <br />
               <p>
                 Please read these Terms of Service (&quot;Terms&quot; or &quot;Terms of Service&quot;)
@@ -60,37 +60,38 @@ const TermsOfService = () => {
                 1. Overview
               </h3>
               <p>
-                Entrova enables businesses to seamlessly manage relationships with local and international independent
-                contractors. You may register to the Platform as either a “Contractor” or “Client”. Depending on the
-                designation of your account, different Services may be available to you. Certain Services may also
-                only be available subject to the payment of such fees detailed on the Platform.
+                Entrova is a software development company and AI studio that designs, builds, and ships
+                custom software and AI products for its clients. These Terms govern your use of our website
+                and any services, deliverables, or engagements we provide (collectively, the “Services”).
+                Certain Services may only be available subject to a separate statement of work or agreement
+                and the payment of fees detailed therein.
               </p>
               <br />
-              <p className='font-medium text-lg'>Client and Contractor Management Services</p>
+              <p className='font-medium text-lg'>Our Services</p>
               <br />
               <p>
-                Clients use Entrova to seamlessly onboard Contractors to their accounts payable systems, conduct
-                vendor due diligence, guide them on compliance as applicable, execute agreements and produce
-                statements of work, and simplify the process of making payments to Contractors (“Client Management Services”).
+                Clients engage Entrova for software design and engineering, product strategy, AI and machine
+                learning development, cloud and DevOps, and related consulting and maintenance services. The
+                specific scope, timeline, deliverables, and fees for each engagement are defined in a mutually
+                agreed proposal or statement of work (“SOW”).
               </p>
               <br />
               <p>
-                Contractors use Entrova to easily connect with their clients, memorialize contract terms, store payment and bank
-                account preferences, and unify payment flows through a single platform (“Contractor Management Services”).
+                Through our website you may also contact us, request a proposal, or book an introductory call
+                to discuss a potential project.
               </p>
               <br />
               <p className='font-medium text-lg'>How it works:</p>
               <br />
               <ul className="list-outside pl-4 list-disc">
-                <li>Registration is free.</li>
-                <li>Entrova collects compliance information from Contractors on behalf of Clients.</li>
-                <li>Clients pay a monthly fee, fixed fee, or per active contract fee and a percentage fee of the volume paid out, as further set forth on the Entrova Platform.</li>
-                <li>Entrova’s Contract generation tool allows Users to set memorialised timelines, deliverables, fees, and acceptance criteria.</li>
-                <li>Clients and Contractors agree that the acceptance criteria have been met.</li>
-                <li>Clients make payments to Contractors through the Entrova Platform using supported payment methods.</li>
-                <li>Entrova makes payouts to Contractors.</li>
-                <li>Contractors receive owed funds after every payout until the contract is terminated by either Client or Contractor.</li>
-                <li>In the event that the contract is a milestone contract, the contract will continue until it is terminated.</li>
+                <li>Initial consultations and proposals are free.</li>
+                <li>We scope each engagement collaboratively and document it in a statement of work.</li>
+                <li>Clients pay on a fixed-fee, milestone, or time-and-materials basis as set out in the applicable SOW.</li>
+                <li>We deliver work in agile sprints, with regular demos and progress updates.</li>
+                <li>Clients review and accept deliverables against the agreed acceptance criteria.</li>
+                <li>Intellectual property in custom deliverables transfers to the Client as set out in the SOW upon full payment.</li>
+                <li>We may provide ongoing support, maintenance, and iteration under a separate or extended agreement.</li>
+                <li>Either party may terminate an engagement in accordance with the terms of the applicable SOW.</li>
               </ul>
               <br />
               <p className='font-medium text-lg'>Consultant Services</p>

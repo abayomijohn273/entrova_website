@@ -22,39 +22,37 @@ const BenefitsSection = () => {
                     <div className='w-full lg:w-11/12 xl:w-10/12'>
                         <div className="flex justify-start">
                             <p className="px-2.5 py-[0.625rem] bg-[#EFF6FF] rounded-[32px] text-[#012A36] text-xs font-medium leading-3 tracking-tight">
-                                Invoicing
+                                Industries
                             </p>
                         </div>
                         <p className='mt-4 w-full md:w-8/12 lg:w-full text-primary font-bold text-[28px] leading-[38px]'>
-                            Invoicing and Payments Simplified
+                            Industries We Serve
                         </p>
                         <p className="mt-4 text-base text-[#1E1E1E]">
-                            Streamline contractor payments globally and enhance their experience with our extensive selection
-                            of 15 payment methods, resulting in reduced fees and hassle-free transactions.
+                            We&apos;ve shipped products across regulated and fast-moving industries—bringing deep
+                            domain understanding to every engagement.
                         </p>
 
                         <div className='mt-8'>
-                            <LinkButton href={"/book-a-demo"} title={"Book A Demo"} buttonType='secondary' className={'bg-transparent'} showArrow={true} />
+                            <LinkButton href={"/book-a-demo"} title={"Start a Project"} buttonType='secondary' className={'bg-transparent'} showArrow={true} />
                         </div>
                     </div>
                     <div className='mt-[4.25rem] lg:mt-0 pb-[1.125rem]'>
                         <ul className='benefit-section_list flex flex-col gap-y-6'>
                             <BenefitListItem
-                                title={"Automated Invoice Generation"}
-                                description={`Effortlessly cut down administrative hours by automating your entire 
-                                invoicing process. Generate digital invoices instantly for each payment and seamlessly 
-                                synchronize your data with your preferred accounting tools.`}
+                                title={"Fintech & Payments"}
+                                description={`Secure, compliant platforms—from digital wallets and 
+                                lending tools to KYC automation and dashboards built for trust and scale.`}
                             />
                             <BenefitListItem
-                                title={"Unified Payment Solution"}
-                                description={`Effortlessly manage salaries for your entire team and pay them in their respective 
-                                local currencies with a simple click. Execute a single consolidated payment to Deel in any of 
-                                our 200 supported currencies.`}
+                                title={"Health & Wellness"}
+                                description={`Patient portals, booking systems, and data-driven health 
+                                products designed with privacy and usability at the core.`}
                             />
                             <BenefitListItem
-                                title={"Diverse Payment Options"}
-                                description={`Empower contractors with access to over 15 payment choices, including cryptocurrency. Moreover, 
-                                they'll benefit from cost savings on exchange rates and fees, all without requiring any additional effort on your part.`}
+                                title={"Commerce & Marketplaces"}
+                                description={`High-performance storefronts, multi-vendor marketplaces, and 
+                                AI-powered search and recommendations that lift conversion.`}
                             />
                         </ul>
                     </div>

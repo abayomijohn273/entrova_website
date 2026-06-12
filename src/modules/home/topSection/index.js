@@ -90,18 +90,18 @@ const TopSection = () => {
                     <div className='relative w-11/12 md:w-9/12 mx-auto'>
                         <div className="flex justify-center items-center">
                             <p className="px-2.5 py-[0.625rem] bg-white rounded-[32px] text-primary text-xs font-medium leading-3 tracking-tight">
-                                Global Hiring, Simplified
+                                Software Development & AI Studio
                             </p>
                         </div>
 
                         <h1 className='mt-3 font-bold text-primary text-center text-[2rem] md:text-5xl md:leading-tight lg:text-6xl lg:leading-tight'>
-                            Hire anywhere.
-                            Deliver everywhere.
+                            We build software &
+                            AI that ships.
                         </h1>
 
                         <p className='w-11/12 md:w-9/12 lg:w-10/12 mx-auto mt-5 md:mt-4 text-base text-center font-medium leading-7 text-textColor'>
-                            At Entrova, we connect companies in the Global North with exceptional talent from the Global
-                            South—unlocking opportunities and fostering innovation without borders.
+                            Entrova is a software development company and AI studio. We partner with founders and enterprises to
+                            design, engineer, and scale digital products—from web and mobile apps to custom AI systems.
                         </p>
 
                         <div className='button-container mt-[2.5rem] md:mt-[2.125rem] flex justify-center gap-3'>
@@ -111,7 +111,7 @@ const TopSection = () => {
                                 </svg>
                             </div>
                             <div className='md:mt-3'>
-                                <LinkButton title={"Book A Demo"} href={"/book-a-demo"} className={"px-8"} showArrow />
+                                <LinkButton title={"Start a Project"} href={"/book-a-demo"} className={"px-8"} showArrow />
                             </div>
                             <div className='hidden md:block'>
                                 <svg width="47" height="45" viewBox="0 0 47 45" fill="none" xmlns="http://www.w3.org/2000/svg">

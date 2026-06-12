@@ -23,14 +23,14 @@ const ProcedureSection = () => {
                     <div className='w-full lg:w-11/12 xl:w-10/12'>
                         <div className="flex justify-start">
                             <p className="px-2.5 py-[0.625rem] bg-[#EFF6FF] rounded-[32px] text-[#012A36] text-xs font-medium leading-3 tracking-tight">
-                                Entrova API
+                                Our Process
                             </p>
                         </div>
                         <p className='mt-4 w-full md:w-8/12 lg:w-full text-primary font-bold text-[28px] leading-[38px]'>
-                            Key Features of Entrova APIs
+                            From Kickoff to Launch
                         </p>
                         <p className="mt-4 text-base text-[#1E1E1E]">
-                            Our APIs boast several features to enhance global payroll management
+                            Four clear phases that take your idea from concept to a live, scalable product.
                         </p>
 
                         {/* Desktop */}
@@ -41,20 +41,20 @@ const ProcedureSection = () => {
                     <div className='mt-[4.25rem] lg:mt-0 pb-[1.125rem]'>
                         <ul className='benefit-section_list flex flex-col gap-y-6'>
                             <BenefitListItem
-                                title={"Multi-Currency Payments"}
-                                description={`Automate payments across over 120 currencies.`}
+                                title={"Discovery"}
+                                description={`We align on goals, users, and scope—turning your vision into a clear technical plan.`}
                             />
                             <BenefitListItem
-                                title={"Compliance Assurance"}
-                                description={`Guarantee compliance with local tax and labor regulations across 150+ countries.`}
+                                title={"Design"}
+                                description={`Prototypes and design systems validate the experience before engineering begins.`}
                             />
                             <BenefitListItem
-                                title={"Real-Time Updates"}
-                                description={`Stay informed with real-time updates on payroll status, employee data, and more.`}
+                                title={"Build"}
+                                description={`Agile sprints deliver tested, working software every two weeks with continuous demos.`}
                             />
                             <BenefitListItem
-                                title={"Employee Self-Service"}
-                                description={`Empower employees to access payslips, contracts, and benefit tracking directly from your platform.`}
+                                title={"Launch & Iterate"}
+                                description={`We ship to production, monitor performance, and keep improving based on real usage.`}
                             />
                         </ul>
                     </div>

@@ -9,7 +9,7 @@ import SuccessSection from './successSection'
 import TopSection from './topSection'
 import WhySection from './whySection'
 
-const Hiring = () => {
+const AIStudio = () => {
   return (
     <MainWrapper>
         <TopSection />
@@ -25,4 +25,4 @@ const Hiring = () => {
   )
 }
 
-export default Hiring
+export default AIStudio

@@ -33,22 +33,22 @@ const Header = () => {
 
                         <div className='hidden md:flex w-7/12  justify-center'>
                             <div className={`flex items-center space-x-4 lg:space-x-7`}>
-                                <NavLink title='Employees' href='/employees' />
-                                <NavLink title='Contractors' href='/contractors' />
-                                <NavLink title='Integration' href='/integrations' />
-                                <NavLink title='Payroll' href='/payroll' />
-                                <NavLink title='API' href='/api' />
+                                <NavLink title='Services' href='/services' />
+                                <NavLink title='AI Studio' href='/ai-studio' />
+                                <NavLink title='Work' href='/work' />
+                                <NavLink title='Process' href='/process' />
+                                <NavLink title='About' href='/about' />
                             </div>
                         </div>
 
                         <div className='flex flex-1 justify-end'>
                             <div className={`hidden md:flex items-center space-x-4`}>
                                 <div className=''>
-                                    <LinkButton className="px-4 lg:px-8" title={"Book A Demo"} href={"/book-a-demo"} />
+                                    <LinkButton className="px-4 lg:px-8" title={"Start a Project"} href={"/book-a-demo"} />
                                 </div>
                                 <div className='md:hidden xl:flex'>
                                     <LinkButton
-                                        title={"Contact Sales"}
+                                        title={"Talk to Us"}
                                         buttonType=''
                                         href={"tel:+12027738695"}
                                         target={"_blank"}

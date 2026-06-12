@@ -10,23 +10,22 @@ const TopSection = () => {
                     <div className='md:w-10/12 lg:w-11/12'>
                         <div className="flex justify-start">
                             <p className="px-2.5 py-[0.625rem] bg-white rounded-[32px] text-secondary text-xs font-medium leading-3 tracking-tight">
-                                Hire and onboard employees
+                                What we do
                             </p>
                         </div>
                         <h1 className='mt-3 font-bold text-primary text-[2rem] md:text-5xl md:leading-tight lg:text-6xl lg:leading-tight'>
-                            Global Employee Onboarding Made Simple
+                            Full-Cycle Software Development
                         </h1>
 
                         <p className='w-11/12 md:w-9/12 lg:w-10/12 mt-5 md:mt-4 text-base font-medium leading-6 text-textColor'>
-                            With Entrova, streamline the onboarding process for new hires
-                            worldwide without the requirement for local legal entities.
-                            Manage your global payroll effortlessly with a single click,
-                            leaving the rest to us.
+                            From web and mobile apps to cloud platforms and AI, we design and
+                            engineer custom software that scales with your business. One
+                            partner for strategy, design, engineering, and delivery.
                         </p>
 
                         <div className='button-container mt-[2.5rem] md:mt-[2.125rem] flex justify-start gap-3'>
                             <div className=''>
-                                <LinkButton title={"Book A Demo"} href={"/book-a-demo"} className={"px-8"} showArrow />
+                                <LinkButton title={"Start a Project"} href={"/book-a-demo"} className={"px-8"} showArrow />
                             </div>
                         </div>
                     </div>

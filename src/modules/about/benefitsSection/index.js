@@ -22,39 +22,38 @@ const BenefitsSection = () => {
                     <div className='w-full lg:w-11/12 xl:w-10/12'>
                         <div className="flex justify-start">
                             <p className="px-2.5 py-[0.625rem] bg-[#EFF6FF] rounded-[32px] text-[#012A36] text-xs font-medium leading-3 tracking-tight">
-                                Payment
+                                What we value
                             </p>
                         </div>
                         <p className='mt-4 w-full md:w-8/12 lg:w-full text-primary font-bold text-[28px] leading-[38px]'>
-                            Empower Your Global Payroll with Entrova
+                            What Drives Our Work
                         </p>
                         <p className="mt-4 text-base text-[#1E1E1E]">
-                            Handle payroll seamlessly in over 100 countries through a single platform,
-                            simplifying international operations and eradicating the continual
-                            administrative burdens of local compliance, taxes, benefits, and beyond.
+                            Our values shape how we build, how we collaborate, and the kind of partner
+                            we are. They&apos;re the reason clients keep coming back.
                         </p>
 
                         <div className='mt-8'>
-                            <LinkButton href={"/book-a-demo"} title={"Book A Demo"} buttonType='secondary' className={'bg-transparent'} showArrow={true} />
+                            <LinkButton href={"/book-a-demo"} title={"Start a Project"} buttonType='secondary' className={'bg-transparent'} showArrow={true} />
                         </div>
                     </div>
                     <div className='mt-[4.25rem] lg:mt-0 pb-[1.125rem]'>
                         <ul className='benefit-section_list flex flex-col gap-y-6'>
                             <BenefitListItem
-                                title={"Multi-Currency Payments"}
-                                description={`Remunerate your team in their local currency, regardless of their location.`}
+                                title={"Craft Over Quantity"}
+                                description={`We&apos;d rather ship one excellent product than ten mediocre ones.`}
                             />
                             <BenefitListItem
-                                title={"Compliance Assurance"}
-                                description={`Stay aligned with local tax and labor regulations across 150+ countries.`}
+                                title={"Ownership"}
+                                description={`We treat your product like our own—and stand behind the quality of everything we ship.`}
                             />
                             <BenefitListItem
-                                title={"One Platform, All Countries"}
-                                description={`Effortlessly manage payroll for your international workforce from a unified platform.`}
+                                title={"Curiosity"}
+                                description={`We stay on the edge of technology, especially AI, so our clients always benefit from what&apos;s next.`}
                             />
                             <BenefitListItem
-                                title={"Employee Self-Service"}
-                                description={`Grant employees access to their payslips, contracts, and benefits through a centralized platform.`}
+                                title={"Honesty"}
+                                description={`Straight talk on scope, timelines, and trade-offs—no surprises, ever.`}
                             />
                         </ul>
                     </div>

@@ -10,20 +10,20 @@ const TopSection = () => {
                     <div className='md:w-10/12 lg:w-11/12'>
                         <div className="flex justify-start">
                             <p className="px-2.5 py-[0.625rem] bg-white rounded-[32px] text-secondary text-xs font-medium leading-3 tracking-tight">
-                                Global Payroll
+                                About Entrova
                             </p>
                         </div>
                         <h1 className='mt-3 font-bold text-primary text-[2rem] md:text-5xl md:leading-tight lg:text-6xl lg:leading-tight'>
-                            Facilitate Global Payroll Management
+                            We&apos;re a Software & AI Studio
                         </h1>
                         <p className='w-11/12 md:w-9/12 lg:w-10/12 mt-5 md:mt-4 text-base font-medium leading-6 text-textColor'>
-                            Entrova offers a secure and compliant global payroll solution to streamline your payroll
-                            procedures across diverse international locations.
+                            Entrova is a team of engineers, designers, and AI specialists building products that matter.
+                            We help ambitious companies turn bold ideas into reliable, scalable software.
                         </p>
 
                         <div className='button-container mt-[2.5rem] md:mt-[2.125rem] flex justify-start gap-3'>
                             <div className=''>
-                                <LinkButton title={"Book A Demo"} href={"/book-a-demo"} className={"px-8"} showArrow />
+                                <LinkButton title={"Start a Project"} href={"/book-a-demo"} className={"px-8"} showArrow />
                             </div>
                         </div>
                     </div>

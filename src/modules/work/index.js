@@ -5,7 +5,7 @@ import ProcedureSection from './procedureSection'
 import TopSection from './topSection'
 import WhySection from './whySection'
 
-const Contractors = () => {
+const Work = () => {
     return (
         <MainWrapper>
             <TopSection />
@@ -17,4 +17,4 @@ const Contractors = () => {
     )
 }
 
-export default Contractors
+export default Work

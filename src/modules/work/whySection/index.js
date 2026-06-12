@@ -27,11 +27,11 @@ const WhySection = () => {
                             </p>
                         </div>
                         <p className='mt-4 w-full md:w-8/12 lg:w-full text-primary font-bold text-[28px] leading-[38px]'>
-                        Your Global Contractor Requirements
+                        Why Clients Choose Entrova
                         </p>
                         <p className="mt-4 text-base text-[#1E1E1E]">
-                        We streamline the intricacies of international employment, aiding in adherence to 
-                        local labor laws while ensuring efficient payroll management.
+                        We&apos;re more than a vendor—we&apos;re a long-term engineering partner
+                        invested in the success of your product.
                         </p>
 
                         {/* Desktop */}
@@ -42,28 +42,28 @@ const WhySection = () => {
                     <div className='mt-[4.25rem] lg:mt-[3.5rem] pb-[1.125rem]'>
                         <ul className='benefit-section_list flex flex-col gap-y-6'>
                             <BenefitListItem
-                                title={"Simplified Onboarding"}
-                                description={`Accelerate the onboarding process for your contractors with our user-friendly, automated platform.`}
+                                title={"Senior Talent, Always"}
+                                description={`You work directly with experienced engineers and designers—no hand-offs to junior teams.`}
                             />
                             <BenefitListItem
-                                title={"Seamless Transactions"}
-                                description={`Effortlessly handle payments to your contractors in their respective local 
-                                currencies, guaranteeing prompt and precise compensation.`}
+                                title={"Outcome-Focused"}
+                                description={`We measure success by the impact your product has on your 
+                                users and your business, not just hours billed.`}
                             />
                             <BenefitListItem
-                                title={"Confidence in Compliance"}
-                                description={`Enjoy peace of mind with our contracts meticulously crafted to meet local statutes and 
-                                regulations, protecting the integrity of your business.`}
+                                title={"Transparent & Reliable"}
+                                description={`Clear communication, predictable timelines, and full 
+                                visibility into progress at every step.`}
                             />
                             <BenefitListItem
-                                title={"Enhanced Team Satisfaction"}
-                                description={`We prioritize contractor well-being with over 15 payment options, Entrova Card, 
-                                health insurance, and automated invoicing, going the extra mile to cater to their needs.`}
+                                title={"AI-Native"}
+                                description={`We bring applied AI expertise to every engagement, helping 
+                                you build products that stay ahead.`}
                             />
                             <BenefitListItem
-                                title={"Extensive Global Reach and vast Customer Base"}
-                                description={`Gain global hiring freedom with access to 150+ countries. Join 100,000+ 
-                                contractors using our platform for unmatched reach in work and payments.`}
+                                title={"Built to Last"}
+                                description={`Clean, well-tested, documented code and architecture you can 
+                                hand to any team and keep building on.`}
                             />
                         </ul>
                     </div>

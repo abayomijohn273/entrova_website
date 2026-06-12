@@ -36,17 +36,17 @@ const SolutionSection = () => {
               </h2>
               <ul className='mt-8 flex flex-col gap-y-6'>
                 <BenefitListItem
-                  title={"Hire Individuals"}
-                  description={`Fill skill gaps or onboard highly skilled professionals for specific roles.`}
+                  title={"Build an MVP"}
+                  description={`Validate your idea fast with a production-ready first version your users will love.`}
                 />
                 <BenefitListItem
-                  title={"Manage Projects"}
-                  description={`From application development to AI-powered prototypes, let us 
-                    deliver projects on time and on budget.`}
+                  title={"Scale a Product"}
+                  description={`Add features, harden infrastructure, and grow your platform 
+                    on time and on budget.`}
                 />
                 <BenefitListItem
-                  title={"End-to-End Hiring"}
-                  description={`Leave it to us to source, onboard, and manage your global team while you focus on growing your business.`}
+                  title={"Embed AI"}
+                  description={`Bring intelligent features and automation into your product with our applied AI team.`}
                 />
               </ul>
             </div>

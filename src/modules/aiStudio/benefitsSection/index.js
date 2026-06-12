@@ -26,30 +26,30 @@ const BenefitsSection = () => {
                             </p>
                         </div>
                         <p className='mt-4 w-full md:w-8/12 lg:w-full text-primary font-bold text-[28px] leading-[38px]'>
-                            Let’s Build Your Global Team Today
+                            Let’s Build Your AI Product Today
                         </p>
                         <p className="mt-4 text-base text-[#1E1E1E]">
-                            Whether you’re a startup scaling fast or an enterprise exploring new markets,
-                            Entrova makes global hiring simple, secure, and seamless.
+                            Whether you’re a startup exploring your first AI feature or an enterprise scaling models
+                            into production, Entrova makes applied AI practical, secure, and impactful.
                         </p>
 
                         <div className='mt-8'>
-                            <LinkButton href={"/book-a-demo"} title={"Book A Demo"} buttonType='secondary' className={'bg-transparent'} showArrow={true} />
+                            <LinkButton href={"/book-a-demo"} title={"Start a Project"} buttonType='secondary' className={'bg-transparent'} showArrow={true} />
                         </div>
                     </div>
                     <div className='mt-[4.25rem] lg:mt-0 pb-[1.125rem]'>
                         <ul className='benefit-section_list flex flex-col gap-y-6'>
                             <BenefitListItem
-                                title={"Talk to Our Hiring Experts"}
-                                description={`We’ll understand your goals, technical needs, and team structure.`}
+                                title={"Tell Us Your Goal"}
+                                description={`We’ll map the highest-impact AI opportunities for your business.`}
                             />
                             <BenefitListItem
-                                title={"Get AI-Matched Talent"}
-                                description={`Our platform matches you with the perfect candidates in under 24 hours.`}
+                                title={"Prototype Fast"}
+                                description={`A working proof-of-concept in weeks, not months.`}
                             />
                             <BenefitListItem
-                                title={"Seamless Onboarding"}
-                                description={`Our trial-to-hire system ensures you work with the right fit, risk-free.`}
+                                title={"Deploy & Scale"}
+                                description={`We take your AI from pilot to reliable, production-grade system.`}
                             />
                         </ul>
                     </div>

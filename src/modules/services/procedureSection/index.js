@@ -23,15 +23,15 @@ const ProcedureSection = () => {
                     <div className='w-full lg:w-11/12 xl:w-10/12'>
                         <div className="flex justify-start">
                             <p className="px-2.5 py-[0.625rem] bg-[#EFF6FF] rounded-[32px] text-[#012A36] text-xs font-medium leading-3 tracking-tight">
-                                Hire Employees
+                                Our Process
                             </p>
                         </div>
                         <p className='mt-4 w-full md:w-8/12 lg:w-full text-primary font-bold text-[28px] leading-[38px]'>
-                            Global Compliance Assurance
+                            How We Deliver
                         </p>
                         <p className="mt-4 text-base text-[#1E1E1E]">
-                            Entrova safeguards your global business, ensuring
-                            compliance across numerous countries.
+                            A proven, transparent delivery process that keeps you
+                            in the loop from first call to launch and beyond.
                         </p>
 
                         {/* Desktop */}
@@ -42,29 +42,29 @@ const ProcedureSection = () => {
                     <div className='mt-[4.25rem] lg:mt-0 pb-[1.125rem]'>
                         <ul className='benefit-section_list flex flex-col gap-y-6'>
                             <BenefitListItem
-                                title={"Step 1: Information Sharing"}
-                                description={`Share pertinent details regarding the new employee, encompassing 
-                                    their position, compensation, and whereabouts.`}
+                                title={"Step 1: Discovery"}
+                                description={`We align on goals, scope, and success metrics—then 
+                                    document a clear plan everyone agrees on.`}
                             />
                             <BenefitListItem
-                                title={"Step 2: Compliance Assurance"}
-                                description={`Entrova crafts an employment agreement aligning with local labor statutes and regulations.`}
+                                title={"Step 2: Design"}
+                                description={`Wireframes and interactive prototypes validate the experience before we write a line of code.`}
                             />
                             <BenefitListItem
-                                title={"Step 3: Seamless Integration"}
-                                description={`Your new team member seamlessly transitions into their role as if they were hired locally, 
-                                while we manage all administrative duties.`}
+                                title={"Step 3: Build"}
+                                description={`Agile sprints deliver working, tested software every two weeks, 
+                                with demos so you see progress continuously.`}
                             />
                             <BenefitListItem
-                                title={"Step 4: Payroll Administration"}
-                                description={`Employees receive their compensation in their local currency, 
-                                inclusive of any mandated local benefits.`}
+                                title={"Step 4: Launch"}
+                                description={`We deploy, QA, and ship to production with confidence, 
+                                monitoring and performance baked in.`}
                             />
                             <BenefitListItem
-                                title={"Step 5: Continual Assistance"}
-                                description={`Count on Entrova for ongoing support and assistance with any updates or 
-                                modifications, catering to the needs of both your 
-                                organization and your international workforce.`}
+                                title={"Step 5: Support & Scale"}
+                                description={`Ongoing maintenance, monitoring, and iteration—so your 
+                                product keeps improving as your business 
+                                grows.`}
                             />
                         </ul>
                     </div>

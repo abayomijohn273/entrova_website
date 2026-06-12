@@ -11,12 +11,10 @@ const IntegrationSection = () => {
                             Integration
                         </p>
                         <p className="mt-4 text-base text-[#1E1E1E]">
-                            Streamline processes with the industry&apos;s widest
-                            array of integrations Our API and partnerships
-                            with top HRIS, accounting, and payroll software
-                            enable seamless integration of Entrova with your
-                            HR technology, automating the complete lifecycle
-                            and ensuring real-time updates
+                            We integrate AI into the products and tools you
+                            already use—connecting models, data sources, and
+                            third-party APIs into a seamless workflow with
+                            secure, real-time data flow.
                         </p>
                     </div>
                     <div className='mt-[4.25rem] lg:mt-0 flex justify-center'>
