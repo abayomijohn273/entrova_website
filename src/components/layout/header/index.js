@@ -38,6 +38,7 @@ const Header = () => {
                                 <NavLink title='Work' href='/work' />
                                 <NavLink title='Process' href='/process' />
                                 <NavLink title='About' href='/about' />
+                                <NavLink title='Conference' href='/conference' />
                             </div>
                         </div>
 
