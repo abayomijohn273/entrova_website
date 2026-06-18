@@ -35,6 +35,11 @@ const MobileMenu = ({ isOpen, handleClose }) => {
       title: "Integrations",
       url: "/integrations"
     },
+    {
+      id: 7,
+      title: "Conference",
+      url: "/conference"
+    },
   ]
 
   return (
