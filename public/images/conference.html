@@ -908,61 +908,44 @@
       </div>
     </div>
     <div>
-      <div class="form-grid" id="reg-form">
-        <div class="form-row">
-          <div class="form-field">
-            <label>Full Name</label>
-            <input type="text" placeholder="Your full name"/>
-          </div>
-          <div class="form-field">
-            <label>Email Address</label>
-            <input type="email" placeholder="you@email.com"/>
+      <div style="background:var(--card); border:1px solid var(--border); border-radius:8px; padding:36px; display:flex; flex-direction:column; gap:28px;">
+        <div style="border-bottom:1px solid var(--border); padding-bottom:24px;">
+          <div style="font-size:0.72rem; font-weight:600; letter-spacing:0.14em; text-transform:uppercase; color:var(--amber); margin-bottom:10px;">Event Details</div>
+          <div style="display:flex; flex-direction:column; gap:14px;">
+            <div style="display:flex; align-items:flex-start; gap:14px;">
+              <span style="font-size:1.2rem; flex-shrink:0; margin-top:1px;">📅</span>
+              <div>
+                <div style="font-family:var(--ff-display); font-weight:600; color:var(--white); font-size:0.95rem;">25th &amp; 26th June 2025</div>
+                <div style="font-size:0.82rem; color:var(--muted); margin-top:2px;">Two full days of sessions</div>
+              </div>
+            </div>
+            <div style="display:flex; align-items:flex-start; gap:14px;">
+              <span style="font-size:1.2rem; flex-shrink:0; margin-top:1px;">📍</span>
+              <div>
+                <div style="font-family:var(--ff-display); font-weight:600; color:var(--white); font-size:0.95rem;">Virtual — Live Online</div>
+                <div style="font-size:0.82rem; color:var(--muted); margin-top:2px;">Attend from anywhere</div>
+              </div>
+            </div>
+            <div style="display:flex; align-items:flex-start; gap:14px;">
+              <span style="font-size:1.2rem; flex-shrink:0; margin-top:1px;">🎟️</span>
+              <div>
+                <div style="font-family:var(--ff-display); font-weight:600; color:var(--white); font-size:0.95rem;">Free to Attend</div>
+                <div style="font-size:0.82rem; color:var(--muted); margin-top:2px;">Limited spots — register early</div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="form-row">
-          <div class="form-field">
-            <label>Phone Number</label>
-            <input type="tel" placeholder="+234 xxx xxx xxxx"/>
+        <div style="border-bottom:1px solid var(--border); padding-bottom:24px;">
+          <div style="font-size:0.72rem; font-weight:600; letter-spacing:0.14em; text-transform:uppercase; color:var(--amber); margin-bottom:10px;">What's Included</div>
+          <div style="display:flex; flex-direction:column; gap:10px;">
+            <div style="display:flex; align-items:center; gap:10px; font-size:0.88rem; color:var(--muted);"><div style="width:5px;height:5px;background:var(--amber);border-radius:50%;flex-shrink:0;"></div>3 keynote speaker sessions</div>
+            <div style="display:flex; align-items:center; gap:10px; font-size:0.88rem; color:var(--muted);"><div style="width:5px;height:5px;background:var(--amber);border-radius:50%;flex-shrink:0;"></div>1 industry breakout room of your choice</div>
+            <div style="display:flex; align-items:center; gap:10px; font-size:0.88rem; color:var(--muted);"><div style="width:5px;height:5px;background:var(--amber);border-radius:50%;flex-shrink:0;"></div>Scholarship eligibility</div>
+            <div style="display:flex; align-items:center; gap:10px; font-size:0.88rem; color:var(--muted);"><div style="width:5px;height:5px;background:var(--amber);border-radius:50%;flex-shrink:0;"></div>Post-event community &amp; resources</div>
           </div>
-          <div class="form-field">
-            <label>Role / Job Title</label>
-            <input type="text" placeholder="What do you do?"/>
-          </div>
         </div>
-        <div class="form-field">
-          <label>Industry</label>
-          <select>
-            <option value="" disabled selected>Select your industry</option>
-            <option>Agriculture & AgriTech</option>
-            <option>Healthcare & MedTech</option>
-            <option>Education & EdTech</option>
-            <option>Financial Services & FinTech</option>
-            <option>Manufacturing & Supply Chain</option>
-            <option>Retail & E-Commerce</option>
-            <option>Government & Public Sector</option>
-            <option>Media, Marketing & Creative Industries</option>
-            <option>Other</option>
-          </select>
-        </div>
-        <div class="form-field">
-          <label>How did you hear about this event?</label>
-          <select>
-            <option value="" disabled selected>Select one</option>
-            <option>LinkedIn</option>
-            <option>Twitter / X</option>
-            <option>Instagram</option>
-            <option>WhatsApp</option>
-            <option>A friend or colleague</option>
-            <option>Email newsletter</option>
-            <option>Other</option>
-          </select>
-        </div>
-        <button class="btn-primary btn-full" onclick="submitForm()">Register Now — It's Free</button>
-        <p class="form-note">Already registered? <a href="#scholarship">Apply separately for the Utiva Scholarship →</a></p>
-      </div>
-      <div class="form-success" id="form-success">
-        <h3>You're registered! 🎉</h3>
-        <p>Check your email for confirmation details. See you on 25th & 26th June.</p>
+        <a href="https://bit.ly/entrovaR" target="_blank" rel="noopener noreferrer" class="btn-primary btn-full" style="text-decoration:none; text-align:center;">Register Now — It's Free</a>
+        <p style="font-size:0.78rem; color:var(--muted); text-align:center; margin-top:-12px;">Spots are limited. Secure yours today.</p>
       </div>
     </div>
   </div>
@@ -1028,23 +1011,6 @@
     document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
     document.getElementById(dayId).classList.add('active');
     btn.classList.add('active');
-  }
-
-  // Form submit (demo)
-  function submitForm() {
-    const inputs = document.querySelectorAll('#reg-form input, #reg-form select');
-    let filled = true;
-    inputs.forEach(i => {
-      if (!i.value) {
-        filled = false;
-        i.style.borderColor = 'var(--coral)';
-        i.addEventListener('input', () => i.style.borderColor = '', { once: true });
-      }
-    });
-    if (filled) {
-      document.getElementById('reg-form').style.display = 'none';
-      document.getElementById('form-success').style.display = 'block';
-    }
   }
 
   // Nav scroll shrink
